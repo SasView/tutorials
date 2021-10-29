@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2017-04-04T10:28:25.684000000</meta:creation-date><meta:generator>LibreOffice/6.1.0.3$Windows_X86_64 LibreOffice_project/efb621ed25068d70781dc026f7e9c5187a4decd1</meta:generator><dc:date>2019-03-28T16:40:55.151000000</dc:date><meta:editing-duration>PT3H49M50S</meta:editing-duration><meta:editing-cycles>42</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="8" meta:object-count="0" meta:page-count="10" meta:paragraph-count="144" meta:word-count="1922" meta:character-count="12128" meta:non-whitespace-character-count="10316"/></office:meta>
+ <office:meta><meta:creation-date>2017-04-04T10:28:25.684000000</meta:creation-date><meta:generator>LibreOffice/6.0.6.2$Windows_X86_64 LibreOffice_project/0c292870b25a325b5ed35f6b45599d2ea4458e77</meta:generator><dc:date>2021-10-29T15:30:37.566000000</dc:date><meta:editing-duration>PT3H50M23S</meta:editing-duration><meta:editing-cycles>43</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="8" meta:object-count="0" meta:page-count="10" meta:paragraph-count="145" meta:word-count="1930" meta:character-count="12199" meta:non-whitespace-character-count="10374"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">116417</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">41063</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">34424</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">13866</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">43764</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">22333</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">8712</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">123306</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">23804</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">53150</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">116417</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">34422</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">130281</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">41063</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">43762</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">63394</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -45,11 +45,11 @@
    <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
    <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
-   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
    <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
    <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
    <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
    <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">true</config:config-item>
    <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
    <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
    <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
@@ -83,7 +83,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">4065263</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">4303041</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -93,12 +93,10 @@
    <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">true</config:config-item>
    <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
    <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
    <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">false</config:config-item>
    <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
    <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
    <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
@@ -625,58 +623,62 @@
    <style:text-properties style:font-name="Arial1" fo:font-size="14pt" fo:font-weight="bold" officeooo:rsid="0037b2c3" officeooo:paragraph-rsid="0037b2c3" fo:background-color="transparent" style:font-size-asian="14pt" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P86" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001a0e3f" officeooo:paragraph-rsid="001a0e3f" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false" fo:break-before="page"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="14pt" fo:font-weight="bold" officeooo:rsid="0020e0fc" officeooo:paragraph-rsid="0020e0fc" fo:background-color="transparent" style:font-size-asian="14pt" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P87" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001cfb4e" officeooo:paragraph-rsid="001cfb4e" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001a0e3f" officeooo:paragraph-rsid="001a0e3f" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P88" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0025d24b" officeooo:paragraph-rsid="0025d24b" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001cfb4e" officeooo:paragraph-rsid="001cfb4e" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P89" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0024d140" officeooo:paragraph-rsid="0025d24b" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0025d24b" officeooo:paragraph-rsid="0025d24b" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P90" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0026db58" officeooo:paragraph-rsid="0026db58" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0024d140" officeooo:paragraph-rsid="0025d24b" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P91" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="00364be2" officeooo:paragraph-rsid="00364be2" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0026db58" officeooo:paragraph-rsid="0026db58" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P92" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0034abd2" officeooo:paragraph-rsid="0034abd2" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="00364be2" officeooo:paragraph-rsid="00364be2" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P93" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="001cfb4e" officeooo:paragraph-rsid="001cfb4e" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0034abd2" officeooo:paragraph-rsid="0034abd2" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P94" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="001cfb4e" officeooo:paragraph-rsid="001cfb4e" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="001cfb4e" officeooo:paragraph-rsid="001cfb4e" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P95" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="001cfb4e" officeooo:paragraph-rsid="001cfb4e" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="001cfb4e" officeooo:paragraph-rsid="001cfb4e" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P96" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="0025d24b" officeooo:paragraph-rsid="0025d24b" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="001cfb4e" officeooo:paragraph-rsid="001cfb4e" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P97" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="bold" officeooo:rsid="00364be2" officeooo:paragraph-rsid="00364be2" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="bold" style:font-size-complex="12pt" style:font-weight-complex="bold"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="0025d24b" officeooo:paragraph-rsid="0025d24b" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P98" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="1.27cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="bold" officeooo:rsid="00364be2" officeooo:paragraph-rsid="00364be2" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="bold" style:font-size-complex="12pt" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="P99" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001a0e3f" officeooo:paragraph-rsid="001a0e3f" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P99" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P100" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
     <style:tab-stops>
      <style:tab-stop style:position="2.963cm"/>
@@ -684,111 +686,111 @@
    </style:paragraph-properties>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001a0e3f" officeooo:paragraph-rsid="001a0e3f" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P100" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P101" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001a0e3f" officeooo:paragraph-rsid="0034abd2" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P101" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001e228c" officeooo:paragraph-rsid="001e228c" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
-  </style:style>
   <style:style style:name="P102" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001f1629" officeooo:paragraph-rsid="001f1629" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001e228c" officeooo:paragraph-rsid="001e228c" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P103" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001f1629" officeooo:paragraph-rsid="0037b2c3" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001f1629" officeooo:paragraph-rsid="001f1629" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P104" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0026db58" officeooo:paragraph-rsid="0026db58" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001f1629" officeooo:paragraph-rsid="0037b2c3" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P105" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0027a5f6" officeooo:paragraph-rsid="0027a5f6" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0026db58" officeooo:paragraph-rsid="0026db58" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P106" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0027a5f6" officeooo:paragraph-rsid="0028c897" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0027a5f6" officeooo:paragraph-rsid="0027a5f6" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P107" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0025d24b" officeooo:paragraph-rsid="0025d24b" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0027a5f6" officeooo:paragraph-rsid="0028c897" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P108" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="002eb7da" officeooo:paragraph-rsid="002eb7da" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0025d24b" officeooo:paragraph-rsid="0025d24b" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P109" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0034abd2" officeooo:paragraph-rsid="0034abd2" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="002eb7da" officeooo:paragraph-rsid="002eb7da" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P110" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="001e228c" officeooo:paragraph-rsid="001e228c" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0034abd2" officeooo:paragraph-rsid="0034abd2" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P111" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0027a5f6" officeooo:paragraph-rsid="0027a5f6" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="001e228c" officeooo:paragraph-rsid="001e228c" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P112" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0028c897" officeooo:paragraph-rsid="0028c897" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0027a5f6" officeooo:paragraph-rsid="0027a5f6" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P113" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0028c897" officeooo:paragraph-rsid="002eb7da" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0028c897" officeooo:paragraph-rsid="0028c897" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P114" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002a0d94" officeooo:paragraph-rsid="002a0d94" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0028c897" officeooo:paragraph-rsid="002eb7da" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P115" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002b8ea4" officeooo:paragraph-rsid="002b8ea4" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002a0d94" officeooo:paragraph-rsid="002a0d94" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P116" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002ce926" officeooo:paragraph-rsid="002ce926" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002b8ea4" officeooo:paragraph-rsid="002b8ea4" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P117" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002d7343" officeooo:paragraph-rsid="002d7343" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002ce926" officeooo:paragraph-rsid="002ce926" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P118" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002d7343" officeooo:paragraph-rsid="002e21ff" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002d7343" officeooo:paragraph-rsid="002d7343" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P119" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002e21ff" officeooo:paragraph-rsid="002e21ff" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002d7343" officeooo:paragraph-rsid="002e21ff" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P120" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="0027a5f6" officeooo:paragraph-rsid="0027a5f6" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002e21ff" officeooo:paragraph-rsid="002e21ff" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P121" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="0025d24b" officeooo:paragraph-rsid="0025d24b" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="0027a5f6" officeooo:paragraph-rsid="0027a5f6" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="P122" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="002a0d94" officeooo:paragraph-rsid="002a0d94" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="0025d24b" officeooo:paragraph-rsid="0025d24b" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P123" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="0037b2c3" officeooo:paragraph-rsid="0037b2c3" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="002a0d94" officeooo:paragraph-rsid="002a0d94" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P124" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="0027a5f6" officeooo:paragraph-rsid="0027a5f6" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="0037b2c3" officeooo:paragraph-rsid="0037b2c3" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="P125" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:margin-left="2.54cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" style:text-underline-style="none" fo:font-weight="normal" officeooo:rsid="0027a5f6" officeooo:paragraph-rsid="0027a5f6" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P126" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001e228c" officeooo:paragraph-rsid="001e228c" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P126" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P127" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false">
     <style:tab-stops>
      <style:tab-stop style:position="2.963cm"/>
@@ -796,80 +798,80 @@
    </style:paragraph-properties>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="001a0e3f" officeooo:paragraph-rsid="001a0e3f" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P127" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P128" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="001e228c" officeooo:paragraph-rsid="001e228c" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P128" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P129" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="003a3323" officeooo:paragraph-rsid="003a3323" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P129" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P130" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="001e228c" officeooo:paragraph-rsid="001e228c" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P130" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P131" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="003a3323" officeooo:paragraph-rsid="003a3323" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P131" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P132" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="001e228c" officeooo:paragraph-rsid="001e228c" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P132" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P133" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="001e228c" officeooo:paragraph-rsid="001e228c" fo:background-color="#ffffff" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P133" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P134" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="0025d24b" officeooo:paragraph-rsid="0025d24b" fo:background-color="transparent" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P134" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P135" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="justify" style:justify-single-word="false" fo:text-indent="0cm" style:auto-text-indent="false"/>
    <style:text-properties style:font-name="Arial1" fo:font-size="14pt" fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="001e228c" officeooo:paragraph-rsid="001e228c" fo:background-color="#ffffff" style:font-size-asian="14pt" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="P135" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P136" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" fo:text-align="center" style:justify-single-word="false" fo:hyphenation-ladder-count="no-limit" fo:text-indent="0cm" style:auto-text-indent="false" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:writing-mode="lr-tb">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ff0000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Arial1" fo:font-size="12pt" fo:letter-spacing="normal" fo:language="en" fo:country="GB" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="SimSun" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-name-complex="Mangal" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="bold" style:text-emphasize="none" style:text-scale="100%" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2"/>
   </style:style>
-  <style:style style:name="P136" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P137" style:family="paragraph" style:parent-style-name="Standard">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#ffffff"/>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" fo:text-align="center" style:justify-single-word="false" fo:hyphenation-ladder-count="no-limit" fo:text-indent="0cm" style:auto-text-indent="false" fo:background-color="#ffffff" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:writing-mode="lr-tb">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ff0000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Arial1" fo:font-size="12pt" fo:letter-spacing="normal" fo:language="en" fo:country="GB" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="SimSun" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-name-complex="Mangal" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="bold" style:text-emphasize="none" style:text-scale="100%" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2"/>
   </style:style>
-  <style:style style:name="P137" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P138" style:family="paragraph" style:parent-style-name="Standard">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" loext:contextual-spacing="false" fo:line-height="100%" fo:text-align="center" style:justify-single-word="false" fo:hyphenation-ladder-count="no-limit" fo:text-indent="0cm" style:auto-text-indent="false" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:writing-mode="lr-tb">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2"/>
   </style:style>
-  <style:style style:name="P138" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
+  <style:style style:name="P139" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0024d140" officeooo:paragraph-rsid="0024d140" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P139" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
+  <style:style style:name="P140" style:family="paragraph" style:parent-style-name="Standard" style:list-style-name="L1">
    <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
    <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0025d24b" officeooo:paragraph-rsid="0025d24b" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P140" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="14pt" fo:font-weight="bold" officeooo:rsid="0020e0fc" officeooo:paragraph-rsid="0020e0fc" fo:background-color="transparent" style:font-size-asian="14pt" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-weight-complex="bold"/>
-  </style:style>
   <style:style style:name="P141" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false" fo:break-before="page"/>
-   <style:text-properties style:font-name="Arial1" fo:font-size="14pt" fo:font-weight="bold" officeooo:rsid="0020e0fc" officeooo:paragraph-rsid="0020e0fc" fo:background-color="transparent" style:font-size-asian="14pt" style:font-weight-asian="bold" style:font-size-complex="14pt" style:font-weight-complex="bold"/>
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="0037b2c3" officeooo:paragraph-rsid="0037b2c3" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
   </style:style>
-  <style:style style:name="P142" style:family="paragraph">
+  <style:style style:name="P142" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="justify" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Arial1" fo:font-size="12pt" fo:font-weight="normal" officeooo:rsid="003fd323" officeooo:paragraph-rsid="003fd323" fo:background-color="transparent" style:font-size-asian="12pt" style:font-weight-asian="normal" style:font-size-complex="12pt" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P143" style:family="paragraph">
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center" fo:text-indent="0cm" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:writing-mode="lr-tb">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties fo:hyphenate="false"/>
   </style:style>
-  <style:style style:name="P143" style:family="paragraph">
+  <style:style style:name="P144" style:family="paragraph">
    <loext:graphic-properties draw:fill="solid" draw:fill-color="#ffffff"/>
    <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-align="center" fo:text-indent="0cm" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:writing-mode="lr-tb">
     <style:tab-stops/>
@@ -1096,6 +1098,9 @@
    <style:text-properties fo:font-size="10pt" style:font-size-asian="10pt" style:font-size-complex="10pt"/>
   </style:style>
   <style:style style:name="T74" style:family="text">
+   <style:text-properties officeooo:rsid="003fd323"/>
+  </style:style>
+  <style:style style:name="T75" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#ff0000" style:text-outline="false" style:text-line-through-style="none" style:text-line-through-type="none" style:text-position="0% 100%" style:font-name="Arial1" fo:font-size="12pt" fo:letter-spacing="normal" fo:language="en" fo:country="GB" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="bold" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:letter-kerning="true" fo:background-color="transparent" style:font-name-asian="SimSun" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-name-complex="Mangal" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="bold" style:text-emphasize="none" style:text-scale="100%" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
@@ -1187,7 +1192,7 @@
  <office:master-styles>
   <style:master-page style:name="Standard" style:page-layout-name="pm1">
    <style:footer>
-    <text:p text:style-name="P1"><text:page-number text:select-page="current">10</text:page-number>/<text:page-count>10</text:page-count></text:p>
+    <text:p text:style-name="P1"><text:page-number text:select-page="current">3</text:page-number>/<text:page-count>10</text:page-count></text:p>
    </style:footer>
   </style:master-page>
  </office:master-styles>
@@ -5931,7 +5936,8 @@
    <text:p text:style-name="P17"/>
    <text:p text:style-name="P17"/>
    <text:p text:style-name="P59">Revisions</text:p>
-   <text:p text:style-name="P44">Last revised: <text:span text:style-name="T70">28</text:span> <text:span text:style-name="T70">March</text:span> 201<text:span text:style-name="T70">9</text:span></text:p>
+   <text:p text:style-name="P44"><text:span text:style-name="T74">Original version</text:span>: <text:span text:style-name="T70">28</text:span> <text:span text:style-name="T70">March</text:span> 201<text:span text:style-name="T70">9</text:span></text:p>
+   <text:p text:style-name="P142">Last revised: <text:s text:c="3"/><text:span text:style-name="T72"><text:s text:c="3"/></text:span>29 October 2021 (change of hyperlink)</text:p>
    <text:p text:style-name="P84">Learning Objective</text:p>
    <text:p text:style-name="P22"/>
    <text:p text:style-name="P23">This tutorial will guide you through the installation of SasView and familiarise you with the programs user interface.</text:p>
@@ -5942,15 +5948,15 @@
    <text:p text:style-name="P24">At the time of writing SasView will run on:</text:p>
    <text:p text:style-name="P24"/>
    <text:p text:style-name="P24">Windows</text:p>
-   <text:p text:style-name="P98">SasView 2.x:<text:tab/><text:tab/><text:tab/>32-bit only</text:p>
-   <text:p text:style-name="P98">SasView 3.x and later: <text:tab/>32-bit &amp; 64-bit</text:p>
-   <text:p text:style-name="P86"/>
+   <text:p text:style-name="P99">SasView 2.x:<text:tab/><text:tab/><text:tab/>32-bit only</text:p>
+   <text:p text:style-name="P99">SasView 3.x and later: <text:tab/>32-bit &amp; 64-bit</text:p>
+   <text:p text:style-name="P87"/>
    <text:p text:style-name="P24">Mac OS</text:p>
-   <text:p text:style-name="P98">SasView 3.x and earlier: <text:tab/>32-bit OSX (10.6, Snowleopard)</text:p>
-   <text:p text:style-name="P98">SasView 4.x and later: <text:tab/>64-bit OSX (10.9, Mavericks or later)</text:p>
-   <text:p text:style-name="P86"/>
-   <text:p text:style-name="P77"><text:span text:style-name="T3">We do not currently support a Linux distribution, but some Users have successfully compiled and built SasView on </text:span><text:span text:style-name="T4">Debian</text:span><text:span text:style-name="T3"> from</text:span><text:span text:style-name="T5"> our </text:span><text:span text:style-name="T3">source </text:span><text:span text:style-name="T6">code on GitHub</text:span><text:span text:style-name="T3">. </text:span><text:span text:style-name="T4">See </text:span><text:a xlink:type="simple" xlink:href="http://trac.sasview.org/wiki/DevNotes/Projects/Debian" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T1">http://trac.sasview.org/wiki/DevNotes/Projects/Debian</text:span></text:a><text:span text:style-name="T1"> </text:span><text:span text:style-name="T4">.</text:span></text:p>
-   <text:p text:style-name="P126"/>
+   <text:p text:style-name="P99">SasView 3.x and earlier: <text:tab/>32-bit OSX (10.6, Snowleopard)</text:p>
+   <text:p text:style-name="P99">SasView 4.x and later: <text:tab/>64-bit OSX (10.9, Mavericks or later)</text:p>
+   <text:p text:style-name="P87"/>
+   <text:p text:style-name="P77"><text:span text:style-name="T3">We do not currently support a Linux distribution, but some Users have successfully compiled and built SasView on </text:span><text:span text:style-name="T4">Debian</text:span><text:span text:style-name="T3"> from</text:span><text:span text:style-name="T5"> our </text:span><text:span text:style-name="T3">source </text:span><text:span text:style-name="T6">code on GitHub</text:span><text:span text:style-name="T3">. </text:span><text:span text:style-name="T4">See </text:span><text:a xlink:type="simple" xlink:href="https://github.com/SasView/sasview/wiki/DevNotes_Projects_Debian" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T4">https://github.com/SasView/sasview/wiki/DevNotes_Projects_Debian</text:span></text:a><text:span text:style-name="T4"> .</text:span></text:p>
+   <text:p text:style-name="P127"/>
    <text:p text:style-name="P24"/>
    <text:p text:style-name="P67">Installing SasView</text:p>
    <text:p text:style-name="P72"/>
@@ -6258,21 +6264,21 @@
     </draw:frame></text:p>
    <text:p text:style-name="P48">Then, either:</text:p>
    <text:p text:style-name="P48"/>
-   <text:p text:style-name="P87"><text:span text:style-name="T13">Click on the </text:span><text:span text:style-name="T28">.dmg</text:span><text:span text:style-name="T32"> link to download a Mac OSX disk image file </text:span><text:span text:style-name="T33">and</text:span><text:span text:style-name="T32"> drag this into your </text:span><text:span text:style-name="T33">Mac</text:span><text:span text:style-name="T32"> ‘</text:span><text:span text:style-name="T35">Applications</text:span><text:span text:style-name="T32">’ folder.</text:span></text:p>
+   <text:p text:style-name="P88"><text:span text:style-name="T13">Click on the </text:span><text:span text:style-name="T28">.dmg</text:span><text:span text:style-name="T32"> link to download a Mac OSX disk image file </text:span><text:span text:style-name="T33">and</text:span><text:span text:style-name="T32"> drag this into your </text:span><text:span text:style-name="T33">Mac</text:span><text:span text:style-name="T32"> ‘</text:span><text:span text:style-name="T35">Applications</text:span><text:span text:style-name="T32">’ folder.</text:span></text:p>
    <text:p text:style-name="P60">or</text:p>
-   <text:p text:style-name="P87"><text:soft-page-break/><text:span text:style-name="T32">Click on the </text:span><text:span text:style-name="T28">.exe</text:span><text:span text:style-name="T32"> link to download a Windows installer </text:span><text:span text:style-name="T33">and o</text:span><text:span text:style-name="T32">nce the downloa</text:span><text:span text:style-name="T33">d is </text:span><text:span text:style-name="T32">complete, run the installer.</text:span></text:p>
-   <text:p text:style-name="P93"/>
-   <text:p text:style-name="P87"><text:span text:style-name="T25">Note: depending on the computer you are using installation </text:span><text:span text:style-name="T26">on Windows</text:span><text:span text:style-name="T25"> may require Administrator-level permissions. If so, please contact your local IT Help Desk.</text:span></text:p>
-   <text:p text:style-name="P95"/>
-   <text:p text:style-name="P130">Avoid using installation folder paths which contain spaces, non-Latin characters or characters not available on a standard keyboard. </text:p>
+   <text:p text:style-name="P88"><text:soft-page-break/><text:span text:style-name="T32">Click on the </text:span><text:span text:style-name="T28">.exe</text:span><text:span text:style-name="T32"> link to download a Windows installer </text:span><text:span text:style-name="T33">and o</text:span><text:span text:style-name="T32">nce the downloa</text:span><text:span text:style-name="T33">d is </text:span><text:span text:style-name="T32">complete, run the installer.</text:span></text:p>
    <text:p text:style-name="P94"/>
-   <text:p text:style-name="P132"/>
-   <text:p text:style-name="P134">Running SasView</text:p>
-   <text:p text:style-name="P134"/>
-   <text:p text:style-name="P131">Windows</text:p>
-   <text:p text:style-name="P101"><text:span text:style-name="T32">Either select SasView from ‘</text:span><text:span text:style-name="T35">Start</text:span><text:span text:style-name="T32">’<text:tab/>&gt; ‘</text:span><text:span text:style-name="T35">All Programs</text:span><text:span text:style-name="T32">’ or, if you asked the installer to create on</text:span><text:span text:style-name="T34">e</text:span><text:span text:style-name="T32">, double-click on the SasView desktop icon.</text:span></text:p>
-   <text:p text:style-name="P110"/>
-   <text:p text:style-name="P110"><draw:frame draw:style-name="fr3" draw:name="Image3" text:anchor-type="paragraph" svg:width="2.29cm" svg:height="2.499cm" draw:z-index="2"><draw:image loext:mime-type="image/png">
+   <text:p text:style-name="P88"><text:span text:style-name="T25">Note: depending on the computer you are using installation </text:span><text:span text:style-name="T26">on Windows</text:span><text:span text:style-name="T25"> may require Administrator-level permissions. If so, please contact your local IT Help Desk.</text:span></text:p>
+   <text:p text:style-name="P96"/>
+   <text:p text:style-name="P131">Avoid using installation folder paths which contain spaces, non-Latin characters or characters not available on a standard keyboard. </text:p>
+   <text:p text:style-name="P95"/>
+   <text:p text:style-name="P133"/>
+   <text:p text:style-name="P135">Running SasView</text:p>
+   <text:p text:style-name="P135"/>
+   <text:p text:style-name="P132">Windows</text:p>
+   <text:p text:style-name="P102"><text:span text:style-name="T32">Either select SasView from ‘</text:span><text:span text:style-name="T35">Start</text:span><text:span text:style-name="T32">’<text:tab/>&gt; ‘</text:span><text:span text:style-name="T35">All Programs</text:span><text:span text:style-name="T32">’ or, if you asked the installer to create on</text:span><text:span text:style-name="T34">e</text:span><text:span text:style-name="T32">, double-click on the SasView desktop icon.</text:span></text:p>
+   <text:p text:style-name="P111"/>
+   <text:p text:style-name="P111"><draw:frame draw:style-name="fr3" draw:name="Image3" text:anchor-type="paragraph" svg:width="2.29cm" svg:height="2.499cm" draw:z-index="2"><draw:image loext:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAMAAAADuCAYAAABveghBAAAACXBIWXMAABcSAAAXEgFnn9JS
        AABIhklEQVR4nO29OYAkSXIdah5ZZ3d1T81AoYam9JfS7y/91bYoEZTQkAhIHErElziQSEpY
        SNgv/aUEUOJQ4lJCUyIpoSlxNTYlLrXCHnN1T091dd1VGfHj2eFu7hF51NFZR4b1xGRkRFRk
@@ -6622,9 +6628,9 @@
       </office:binary-data>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P131">Mac OS</text:p>
-   <text:p text:style-name="P103"><text:span text:style-name="T32">Go in to your ‘</text:span><text:span text:style-name="T35">Applications</text:span><text:span text:style-name="T32">’ folder and select SasView.</text:span></text:p>
-   <text:p text:style-name="P123">(Also see the Appendix)</text:p>
+   <text:p text:style-name="P132">Mac OS</text:p>
+   <text:p text:style-name="P104"><text:span text:style-name="T32">Go in to your ‘</text:span><text:span text:style-name="T35">Applications</text:span><text:span text:style-name="T32">’ folder and select SasView.</text:span></text:p>
+   <text:p text:style-name="P124">(Also see the Appendix)</text:p>
    <text:p text:style-name="P76"/>
    <text:p text:style-name="P76"/>
    <text:p text:style-name="P30">SasView should start and present you with a screen <text:span text:style-name="T48">something </text:span>like this <text:span text:style-name="T48">(there will be small differences between Windows and Mac OS versions of the program)</text:span>:</text:p>
@@ -8102,46 +8108,46 @@
        P5pG/X1OT2s1AAAAAElFTkSuQmCC
       </office:binary-data>
      </draw:image>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="4" draw:name="Shape1" draw:style-name="gr1" draw:text-style-name="P143" svg:width="0.662cm" svg:height="0.742cm" svg:x="5.131cm" svg:y="0cm">
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="4" draw:name="Shape1" draw:style-name="gr1" draw:text-style-name="P144" svg:width="0.662cm" svg:height="0.742cm" svg:x="5.131cm" svg:y="0cm">
      <draw:text-box>
-      <text:p text:style-name="P142"><text:span text:style-name="T74">1</text:span></text:p>
+      <text:p text:style-name="P143"><text:span text:style-name="T75">1</text:span></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="5" draw:name="Shape1" draw:style-name="gr1" draw:text-style-name="P143" svg:width="0.662cm" svg:height="0.742cm" svg:x="2.215cm" svg:y="2.33cm">
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="5" draw:name="Shape1" draw:style-name="gr1" draw:text-style-name="P144" svg:width="0.662cm" svg:height="0.742cm" svg:x="2.215cm" svg:y="2.33cm">
      <draw:text-box>
-      <text:p text:style-name="P142"><text:span text:style-name="T74">2</text:span></text:p>
+      <text:p text:style-name="P143"><text:span text:style-name="T75">2</text:span></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="7" draw:name="Shape1" draw:style-name="gr1" draw:text-style-name="P143" svg:width="0.662cm" svg:height="0.742cm" svg:x="7.851cm" svg:y="4.288cm">
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="7" draw:name="Shape1" draw:style-name="gr1" draw:text-style-name="P144" svg:width="0.662cm" svg:height="0.742cm" svg:x="7.851cm" svg:y="4.288cm">
      <draw:text-box>
-      <text:p text:style-name="P142"><text:span text:style-name="T74">3</text:span></text:p>
+      <text:p text:style-name="P143"><text:span text:style-name="T75">3</text:span></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="6" draw:name="Shape1" draw:style-name="gr1" draw:text-style-name="P143" svg:width="0.662cm" svg:height="0.742cm" svg:x="14.788cm" svg:y="8.548cm">
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="6" draw:name="Shape1" draw:style-name="gr1" draw:text-style-name="P144" svg:width="0.662cm" svg:height="0.742cm" svg:x="14.788cm" svg:y="8.548cm">
      <draw:text-box>
-      <text:p text:style-name="P142"><text:span text:style-name="T74">4</text:span></text:p>
+      <text:p text:style-name="P143"><text:span text:style-name="T75">4</text:span></text:p>
      </draw:text-box>
-    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="8" draw:name="Shape1" draw:style-name="gr1" draw:text-style-name="P143" svg:width="0.662cm" svg:height="0.742cm" svg:x="3.226cm" svg:y="8.481cm">
+    </draw:frame><draw:frame text:anchor-type="paragraph" draw:z-index="8" draw:name="Shape1" draw:style-name="gr1" draw:text-style-name="P144" svg:width="0.662cm" svg:height="0.742cm" svg:x="3.226cm" svg:y="8.481cm">
      <draw:text-box>
-      <text:p text:style-name="P142"><text:span text:style-name="T74">5</text:span></text:p>
+      <text:p text:style-name="P143"><text:span text:style-name="T75">5</text:span></text:p>
      </draw:text-box>
     </draw:frame></text:p>
-   <text:p text:style-name="P141">A Quick Tour of the SasView GUI</text:p>
+   <text:p text:style-name="P86">A Quick Tour of the SasView GUI</text:p>
    <text:p text:style-name="P30"/>
    <text:p text:style-name="P31">There are <text:span text:style-name="T50">five</text:span> elements to the initial SasView screen:</text:p>
    <text:p text:style-name="P31"/>
-   <text:list xml:id="list4192632458" text:style-name="L1">
+   <text:list xml:id="list3901133890" text:style-name="L1">
     <text:list-item>
-     <text:p text:style-name="P138">A <text:span text:style-name="T18">Menu Bar</text:span> and <text:span text:style-name="T54">a </text:span><text:span text:style-name="T19">Toolbar</text:span><text:span text:style-name="T54"> of icons</text:span></text:p>
+     <text:p text:style-name="P139">A <text:span text:style-name="T18">Menu Bar</text:span> and <text:span text:style-name="T54">a </text:span><text:span text:style-name="T19">Toolbar</text:span><text:span text:style-name="T54"> of icons</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P138">A <text:span text:style-name="T18">Data Explorer</text:span> panel</text:p>
+     <text:p text:style-name="P139">A <text:span text:style-name="T18">Data Explorer</text:span> panel</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P138">A <text:span text:style-name="T18">Fit Page</text:span></text:p>
+     <text:p text:style-name="P139">A <text:span text:style-name="T18">Fit Page</text:span></text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P138">The <text:span text:style-name="T18">Console</text:span> <text:span text:style-name="T65">b</text:span>utton</text:p>
+     <text:p text:style-name="P139">The <text:span text:style-name="T18">Console</text:span> <text:span text:style-name="T65">b</text:span>utton</text:p>
     </text:list-item>
     <text:list-item>
-     <text:p text:style-name="P139">The<text:span text:style-name="T18"> Status Bar</text:span></text:p>
+     <text:p text:style-name="P140">The<text:span text:style-name="T18"> Status Bar</text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P31"/>
@@ -8341,97 +8347,97 @@
      </draw:image>
     </draw:frame></text:p>
    <text:p text:style-name="P32"/>
-   <text:p text:style-name="P133"/>
-   <text:p text:style-name="P96"/>
-   <text:p text:style-name="P96"/>
-   <text:p text:style-name="P96"/>
-   <text:p text:style-name="P96">File</text:p>
-   <text:p text:style-name="P104">Here you can load one of more individual data files, or an entire folder of data files into SasView. You can also save a current analysis or entire SasView session to file and then re-load them.</text:p>
-   <text:p text:style-name="P88"/>
-   <text:p text:style-name="P96">Edit</text:p>
-   <text:p text:style-name="P104">Here you can copy/paste analysis parameters between analysis pages - useful when configuring multiple Fit Pages for, say, simultaneous fitting – or export the parameters to file.</text:p>
-   <text:p text:style-name="P90"/>
-   <text:p text:style-name="P104">If an analysis has been performed <text:span text:style-name="T18">Report Results</text:span> will prepare a report that can be saved/printed.</text:p>
-   <text:p text:style-name="P88"/>
-   <text:p text:style-name="P96">View</text:p>
-   <text:p text:style-name="P104">Here you can hide/show the <text:span text:style-name="T18">Toolbar</text:span>, the <text:span text:style-name="T18">Data Explorer</text:span>, and the <text:span text:style-name="T18">Batch Fitting Results Panel</text:span></text:p>
-   <text:p text:style-name="P104"/>
-   <text:p text:style-name="P105"><text:span text:style-name="T18">Startup Setting</text:span> allows you to choose whether or not SasView remembers the current configuration of the program <text:span text:style-name="T43">and</text:span><text:span text:style-name="T56"> which folder you last loaded data from.</text:span></text:p>
-   <text:p text:style-name="P124"/>
-   <text:p text:style-name="P104"><text:span text:style-name="T18">Category </text:span><text:span text:style-name="T20">M</text:span><text:span text:style-name="T18">anager</text:span> <text:span text:style-name="T55">allows you to re-organise the library of fitting models to your own preference.</text:span></text:p>
-   <text:p text:style-name="P107"/>
-   <text:p text:style-name="P107"/>
-   <text:p text:style-name="P107"/>
-   <text:p text:style-name="P96"><text:soft-page-break/>Tools</text:p>
-   <text:p text:style-name="P105">Here you will find a collection of <text:span text:style-name="T59">various </text:span>utilities:</text:p>
-   <text:p text:style-name="P105"/>
-   <text:p text:style-name="P120">Data Operation</text:p>
-   <text:p text:style-name="P112">Allows you to add, subtract, multiply, divide, or append two separate datasets.</text:p>
-   <text:p text:style-name="P120"/>
-   <text:p text:style-name="P120">SLD Calculator</text:p>
-   <text:p text:style-name="P114">Calculates the neutron scattering length densities and electron densities of a given chemical formula.</text:p>
-   <text:p text:style-name="P120"/>
-   <text:p text:style-name="P120">Density/Volume Calculator</text:p>
-   <text:p text:style-name="P114">Converts between the molar volume and mass density of a given chemical formula.</text:p>
-   <text:p text:style-name="P114"/>
-   <text:p text:style-name="P120">Slit Size Calculator</text:p>
-   <text:p text:style-name="P114">Calculates the slit length for smearing purposes (as <text:span text:style-name="T59">half the </text:span>FWHM) from a SAXS beam profile.</text:p>
-   <text:p text:style-name="P114"/>
-   <text:p text:style-name="P122">Note: this tool has only been validated for Anton-Paar SAXSess beam profile data.</text:p>
-   <text:p text:style-name="P122"/>
-   <text:p text:style-name="P120">Kiessig Thickness Calculator</text:p>
-   <text:p text:style-name="P115">Calculates the Kiessig thickness from the Q-value of a fringe in a reflectivity profile, or the d-spacing from the Q-value of a peak in SAXS/SANS data, as 2<text:span text:style-name="T9">π</text:span>/Q.</text:p>
-   <text:p text:style-name="P115"/>
-   <text:p text:style-name="P120">Q Resolution Estimator</text:p>
-   <text:p text:style-name="P115">Estimates the Q-resolution of SAXS/SANS data from <text:span text:style-name="T59">given</text:span> instrumental parameter values, assuming that the detector is flat and normal to the incident beam.</text:p>
-   <text:p text:style-name="P115"/>
-   <text:p text:style-name="P120">Generic Scattering Calculator</text:p>
-   <text:p text:style-name="P116">Attempts to simulate the SANS expected from a specified shape/structure or scattering length density profile. The tool can handle both the nuclear and magnetic contributions to the scattering.</text:p>
-   <text:p text:style-name="P111"/>
-   <text:p text:style-name="P120">Python Shell/Editor</text:p>
-   <text:p text:style-name="P116">Opens a Python 2.7 shell and editor; useful for editing and testing plug-in fitting models.</text:p>
-   <text:p text:style-name="P116"/>
-   <text:p text:style-name="P120">Image Viewer</text:p>
-   <text:p text:style-name="P117">This tool loads and displays 2D SAS image data as <text:span text:style-name="T60">X</text:span>-<text:span text:style-name="T60">Y</text:span> pixel coordinates versus <text:span text:style-name="T60">whatever the</text:span> ‘intensity’ value <text:span text:style-name="T60">is</text:span> per pixel). The supported input image formats are: BMP (bitmap format), GIF (graphical interchange format), JPG (joint photographic experts group format), PNG (portable network graphics format), and TIF (tagged image format).</text:p>
-   <text:p text:style-name="P117"/>
-   <text:p text:style-name="P118">The <text:span text:style-name="T60">displayed 2D plot</text:span> can then can be <text:span text:style-name="T60">copied, printed, or re-saved as any of the above formats or as PS (postscript), EPS (encapsulated postscript), PDF </text:span><text:soft-page-break/><text:span text:style-name="T60">(portable document format), RAW/RGBA (raw rgba bitmap), or SVG (scaleable vector graphics).</text:span></text:p>
-   <text:p text:style-name="P118"/>
-   <text:p text:style-name="P119">If the min/max Q limits of the X-Y axes are known this tool will also convert the image to pseudo-data, for example, for 2D fitting or further manipulation.</text:p>
-   <text:p text:style-name="P111"/>
-   <text:p text:style-name="P120">File Converter</text:p>
-   <text:p text:style-name="P119">This tool can be used to convert 1D or 2D datasets where the Q and intensity values are stored in separate files – for example, BSL/OTOKO format data <text:span text:style-name="T61">and some other obscure SAXS data formats</text:span> - into SAS standard datafiles (CanSAS XML for 1D data and NxcanSAS HDF for 2D data) that can then be loaded by SasView.</text:p>
-   <text:p text:style-name="P119"/>
-   <text:p text:style-name="P96">Analysis</text:p>
-   <text:p text:style-name="P96"><text:tab/><text:span text:style-name="T38">Here you can also select the type of analysis you wish to perform:</text:span></text:p>
-   <text:p text:style-name="P96"/>
-   <text:p text:style-name="P120">Fitting</text:p>
-   <text:p text:style-name="P112">Performs optimised model-fitting on one of more datasets, with or without constraints, polydispersity or orientation distributions, or resolution smearing.</text:p>
-   <text:p text:style-name="P111"/>
-   <text:p text:style-name="P120">Pr Inversion</text:p>
-   <text:p text:style-name="P112">Calculates the distance distribution function – or ‘P(r) curve’ - for a dataset.</text:p>
-   <text:p text:style-name="P120"/>
-   <text:p text:style-name="P120">Invariant</text:p>
-   <text:p text:style-name="P112">Calculates the Porod Invariant (sometimes denoted as Q*<text:span text:style-name="T58">) - or ‘Total Scattering’ - for a dataset.</text:span></text:p>
-   <text:p text:style-name="P120"/>
-   <text:p text:style-name="P120">Correlation Function</text:p>
-   <text:p text:style-name="P113">Calculates the 1D density correlation function for a dataset.</text:p>
-   <text:p text:style-name="P113"/>
-   <text:p text:style-name="P113">If the data is from a sample that can be described <text:span text:style-name="T61">by idealised</text:span> lamellar morphology this analysis will also attempt to extract some morphological information from the correlation function; eg, lamellar spacing, crystallinity, etc.</text:p>
-   <text:p text:style-name="P96"/>
-   <text:p text:style-name="P96">Fitting</text:p>
-   <text:p text:style-name="P108">Provides access to advanced model-fitting options.</text:p>
-   <text:p text:style-name="P108"/>
-   <text:p text:style-name="P108">Here you can set up parameter constraints between Fit Pages or simultaneous fits, change the default fitting optimiser used by SasView, test/enable/disable fitting computations using OpenCL (a means of speeding up some complex fits by taking advantage of any high-performance graphics card processor installed in your computer), and create/manipulate/delete plug-in fitting models.</text:p>
-   <text:p text:style-name="P88"/>
-   <text:p text:style-name="P96">Window</text:p>
-   <text:p text:style-name="P105">Here you can switch between, and arrange, the various SasView windows that are in use.</text:p>
-   <text:p text:style-name="P88"/>
-   <text:p text:style-name="P88"/>
-   <text:p text:style-name="P96"><text:soft-page-break/>Help</text:p>
-   <text:p text:style-name="P106">Here you can access the extensive SasView help <text:span text:style-name="T18">Documentation</text:span> and these <text:span text:style-name="T18">Tutorials</text:span>.</text:p>
-   <text:p text:style-name="P106"/>
-   <text:p text:style-name="P106">You can also check to see if there is a more <text:span text:style-name="T57">recent release of SasView, or browse the </text:span><text:span text:style-name="T21">Model Marketplace</text:span><text:span text:style-name="T57"> to look for additional fitting models (these options will require an internet connection).</text:span></text:p>
+   <text:p text:style-name="P134"/>
+   <text:p text:style-name="P97"/>
+   <text:p text:style-name="P97"/>
+   <text:p text:style-name="P97"/>
+   <text:p text:style-name="P97">File</text:p>
+   <text:p text:style-name="P105">Here you can load one of more individual data files, or an entire folder of data files into SasView. You can also save a current analysis or entire SasView session to file and then re-load them.</text:p>
    <text:p text:style-name="P89"/>
+   <text:p text:style-name="P97">Edit</text:p>
+   <text:p text:style-name="P105">Here you can copy/paste analysis parameters between analysis pages - useful when configuring multiple Fit Pages for, say, simultaneous fitting – or export the parameters to file.</text:p>
+   <text:p text:style-name="P91"/>
+   <text:p text:style-name="P105">If an analysis has been performed <text:span text:style-name="T18">Report Results</text:span> will prepare a report that can be saved/printed.</text:p>
+   <text:p text:style-name="P89"/>
+   <text:p text:style-name="P97">View</text:p>
+   <text:p text:style-name="P105">Here you can hide/show the <text:span text:style-name="T18">Toolbar</text:span>, the <text:span text:style-name="T18">Data Explorer</text:span>, and the <text:span text:style-name="T18">Batch Fitting Results Panel</text:span></text:p>
+   <text:p text:style-name="P105"/>
+   <text:p text:style-name="P106"><text:span text:style-name="T18">Startup Setting</text:span> allows you to choose whether or not SasView remembers the current configuration of the program <text:span text:style-name="T43">and</text:span><text:span text:style-name="T56"> which folder you last loaded data from.</text:span></text:p>
+   <text:p text:style-name="P125"/>
+   <text:p text:style-name="P105"><text:span text:style-name="T18">Category </text:span><text:span text:style-name="T20">M</text:span><text:span text:style-name="T18">anager</text:span> <text:span text:style-name="T55">allows you to re-organise the library of fitting models to your own preference.</text:span></text:p>
+   <text:p text:style-name="P108"/>
+   <text:p text:style-name="P108"/>
+   <text:p text:style-name="P108"/>
+   <text:p text:style-name="P97"><text:soft-page-break/>Tools</text:p>
+   <text:p text:style-name="P106">Here you will find a collection of <text:span text:style-name="T59">various </text:span>utilities:</text:p>
+   <text:p text:style-name="P106"/>
+   <text:p text:style-name="P121">Data Operation</text:p>
+   <text:p text:style-name="P113">Allows you to add, subtract, multiply, divide, or append two separate datasets.</text:p>
+   <text:p text:style-name="P121"/>
+   <text:p text:style-name="P121">SLD Calculator</text:p>
+   <text:p text:style-name="P115">Calculates the neutron scattering length densities and electron densities of a given chemical formula.</text:p>
+   <text:p text:style-name="P121"/>
+   <text:p text:style-name="P121">Density/Volume Calculator</text:p>
+   <text:p text:style-name="P115">Converts between the molar volume and mass density of a given chemical formula.</text:p>
+   <text:p text:style-name="P115"/>
+   <text:p text:style-name="P121">Slit Size Calculator</text:p>
+   <text:p text:style-name="P115">Calculates the slit length for smearing purposes (as <text:span text:style-name="T59">half the </text:span>FWHM) from a SAXS beam profile.</text:p>
+   <text:p text:style-name="P115"/>
+   <text:p text:style-name="P123">Note: this tool has only been validated for Anton-Paar SAXSess beam profile data.</text:p>
+   <text:p text:style-name="P123"/>
+   <text:p text:style-name="P121">Kiessig Thickness Calculator</text:p>
+   <text:p text:style-name="P116">Calculates the Kiessig thickness from the Q-value of a fringe in a reflectivity profile, or the d-spacing from the Q-value of a peak in SAXS/SANS data, as 2<text:span text:style-name="T9">π</text:span>/Q.</text:p>
+   <text:p text:style-name="P116"/>
+   <text:p text:style-name="P121">Q Resolution Estimator</text:p>
+   <text:p text:style-name="P116">Estimates the Q-resolution of SAXS/SANS data from <text:span text:style-name="T59">given</text:span> instrumental parameter values, assuming that the detector is flat and normal to the incident beam.</text:p>
+   <text:p text:style-name="P116"/>
+   <text:p text:style-name="P121">Generic Scattering Calculator</text:p>
+   <text:p text:style-name="P117">Attempts to simulate the SANS expected from a specified shape/structure or scattering length density profile. The tool can handle both the nuclear and magnetic contributions to the scattering.</text:p>
+   <text:p text:style-name="P112"/>
+   <text:p text:style-name="P121">Python Shell/Editor</text:p>
+   <text:p text:style-name="P117">Opens a Python 2.7 shell and editor; useful for editing and testing plug-in fitting models.</text:p>
+   <text:p text:style-name="P117"/>
+   <text:p text:style-name="P121">Image Viewer</text:p>
+   <text:p text:style-name="P118">This tool loads and displays 2D SAS image data as <text:span text:style-name="T60">X</text:span>-<text:span text:style-name="T60">Y</text:span> pixel coordinates versus <text:span text:style-name="T60">whatever the</text:span> ‘intensity’ value <text:span text:style-name="T60">is</text:span> per pixel). The supported input image formats are: BMP (bitmap format), GIF (graphical interchange format), JPG (joint photographic experts group format), PNG (portable network graphics format), and TIF (tagged image format).</text:p>
+   <text:p text:style-name="P118"/>
+   <text:p text:style-name="P119">The <text:span text:style-name="T60">displayed 2D plot</text:span> can then can be <text:span text:style-name="T60">copied, printed, or re-saved as any of the above formats or as PS (postscript), EPS (encapsulated postscript), PDF </text:span><text:soft-page-break/><text:span text:style-name="T60">(portable document format), RAW/RGBA (raw rgba bitmap), or SVG (scaleable vector graphics).</text:span></text:p>
+   <text:p text:style-name="P119"/>
+   <text:p text:style-name="P120">If the min/max Q limits of the X-Y axes are known this tool will also convert the image to pseudo-data, for example, for 2D fitting or further manipulation.</text:p>
+   <text:p text:style-name="P112"/>
+   <text:p text:style-name="P121">File Converter</text:p>
+   <text:p text:style-name="P120">This tool can be used to convert 1D or 2D datasets where the Q and intensity values are stored in separate files – for example, BSL/OTOKO format data <text:span text:style-name="T61">and some other obscure SAXS data formats</text:span> - into SAS standard datafiles (CanSAS XML for 1D data and NxcanSAS HDF for 2D data) that can then be loaded by SasView.</text:p>
+   <text:p text:style-name="P120"/>
+   <text:p text:style-name="P97">Analysis</text:p>
+   <text:p text:style-name="P97"><text:tab/><text:span text:style-name="T38">Here you can also select the type of analysis you wish to perform:</text:span></text:p>
+   <text:p text:style-name="P97"/>
+   <text:p text:style-name="P121">Fitting</text:p>
+   <text:p text:style-name="P113">Performs optimised model-fitting on one of more datasets, with or without constraints, polydispersity or orientation distributions, or resolution smearing.</text:p>
+   <text:p text:style-name="P112"/>
+   <text:p text:style-name="P121">Pr Inversion</text:p>
+   <text:p text:style-name="P113">Calculates the distance distribution function – or ‘P(r) curve’ - for a dataset.</text:p>
+   <text:p text:style-name="P121"/>
+   <text:p text:style-name="P121">Invariant</text:p>
+   <text:p text:style-name="P113">Calculates the Porod Invariant (sometimes denoted as Q*<text:span text:style-name="T58">) - or ‘Total Scattering’ - for a dataset.</text:span></text:p>
+   <text:p text:style-name="P121"/>
+   <text:p text:style-name="P121">Correlation Function</text:p>
+   <text:p text:style-name="P114">Calculates the 1D density correlation function for a dataset.</text:p>
+   <text:p text:style-name="P114"/>
+   <text:p text:style-name="P114">If the data is from a sample that can be described <text:span text:style-name="T61">by idealised</text:span> lamellar morphology this analysis will also attempt to extract some morphological information from the correlation function; eg, lamellar spacing, crystallinity, etc.</text:p>
+   <text:p text:style-name="P97"/>
+   <text:p text:style-name="P97">Fitting</text:p>
+   <text:p text:style-name="P109">Provides access to advanced model-fitting options.</text:p>
+   <text:p text:style-name="P109"/>
+   <text:p text:style-name="P109">Here you can set up parameter constraints between Fit Pages or simultaneous fits, change the default fitting optimiser used by SasView, test/enable/disable fitting computations using OpenCL (a means of speeding up some complex fits by taking advantage of any high-performance graphics card processor installed in your computer), and create/manipulate/delete plug-in fitting models.</text:p>
+   <text:p text:style-name="P89"/>
+   <text:p text:style-name="P97">Window</text:p>
+   <text:p text:style-name="P106">Here you can switch between, and arrange, the various SasView windows that are in use.</text:p>
+   <text:p text:style-name="P89"/>
+   <text:p text:style-name="P89"/>
+   <text:p text:style-name="P97"><text:soft-page-break/>Help</text:p>
+   <text:p text:style-name="P107">Here you can access the extensive SasView help <text:span text:style-name="T18">Documentation</text:span> and these <text:span text:style-name="T18">Tutorials</text:span>.</text:p>
+   <text:p text:style-name="P107"/>
+   <text:p text:style-name="P107">You can also check to see if there is a more <text:span text:style-name="T57">recent release of SasView, or browse the </text:span><text:span text:style-name="T21">Model Marketplace</text:span><text:span text:style-name="T57"> to look for additional fitting models (these options will require an internet connection).</text:span></text:p>
+   <text:p text:style-name="P90"/>
    <text:p text:style-name="P56">Data Explorer</text:p>
    <text:p text:style-name="P57"><draw:frame draw:style-name="fr6" draw:name="Image6" text:anchor-type="paragraph" svg:x="0.053cm" svg:y="0.09cm" svg:width="3.47cm" svg:height="7.999cm" draw:z-index="11"><draw:image loext:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAARUAAAJ/CAIAAADZC9AUAAA83UlEQVR4nO3dB2AUVcIH8Lcp
@@ -9355,10 +9361,10 @@
    <text:p text:style-name="P43">The log file is located in your user account ‘home’ folder, so on:</text:p>
    <text:p text:style-name="P43"/>
    <text:p text:style-name="P26">Windows</text:p>
-   <text:p text:style-name="P109">C:\Users\<text:span text:style-name="T29">{your_userid}</text:span>\sasview.txt</text:p>
-   <text:p text:style-name="P100"/>
+   <text:p text:style-name="P110">C:\Users\<text:span text:style-name="T29">{your_userid}</text:span>\sasview.txt</text:p>
+   <text:p text:style-name="P101"/>
    <text:p text:style-name="P26">Mac OS</text:p>
-   <text:p text:style-name="P109">~/sasview.txt</text:p>
+   <text:p text:style-name="P110">~/sasview.txt</text:p>
    <text:p text:style-name="P42"/>
    <text:p text:style-name="P42"/>
    <text:p text:style-name="P31"/>
@@ -9366,16 +9372,16 @@
    <text:p text:style-name="P73"/>
    <text:p text:style-name="P43">For further information, please consult <text:span text:style-name="T68">the</text:span></text:p>
    <text:p text:style-name="P43"/>
-   <text:p text:style-name="P97">SasView Tutorial Series</text:p>
-   <text:p text:style-name="P91"/>
-   <text:p text:style-name="P91">or</text:p>
+   <text:p text:style-name="P98">SasView Tutorial Series</text:p>
    <text:p text:style-name="P92"/>
-   <text:p text:style-name="P97"><text:a xlink:type="simple" xlink:href="http://www.sasview.org/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">http://www.sasview.org</text:a></text:p>
-   <text:p text:style-name="P91"/>
-   <text:p text:style-name="P91">or email</text:p>
-   <text:p text:style-name="P91"/>
-   <text:p text:style-name="P97"><text:a xlink:type="simple" xlink:href="mailto:help@sasview.org" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">help@sasview.org</text:a></text:p>
-   <text:p text:style-name="P97"/>
+   <text:p text:style-name="P92">or</text:p>
+   <text:p text:style-name="P93"/>
+   <text:p text:style-name="P98"><text:a xlink:type="simple" xlink:href="http://www.sasview.org/" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">http://www.sasview.org</text:a></text:p>
+   <text:p text:style-name="P92"/>
+   <text:p text:style-name="P92">or email</text:p>
+   <text:p text:style-name="P92"/>
+   <text:p text:style-name="P98"><text:a xlink:type="simple" xlink:href="mailto:help@sasview.org" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">help@sasview.org</text:a></text:p>
+   <text:p text:style-name="P98"/>
    <text:p text:style-name="P20"/>
    <text:p text:style-name="P85">Appendix</text:p>
    <text:p text:style-name="P74"/>
