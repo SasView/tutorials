@@ -2,9 +2,13 @@
 This repository is where contributed tutorials for SasView live!
 
 `.fodt` files committed here are automatically converted to PDF by GitHub
-Actions (`.github/workflows/fodt-to-pdf.yml`) using LibreOffice. The generated
-PDFs are committed back to the same branch and also uploaded as workflow
-artifacts.
+Actions (`.github/workflows/fodt-to-pdf.yml`) using LibreOffice.
+
+- On **pull requests**: changed `.fodt` files are converted and the PDFs are
+  uploaded as workflow artifacts (nothing is committed back to the PR branch).
+- On **push** to a branch: PDFs are generated, uploaded as artifacts, and
+  committed back to the same branch.
+- **workflow_dispatch** can rebuild all (or recently changed) tutorials manually.
 
 To convert locally (requires LibreOffice):
 

@@ -1,8 +1,15 @@
 name: Convert FODT to PDF
 
-# Convert newly added/changed .fodt tutorials to PDF with LibreOffice,
-# then commit the generated PDFs back to the same branch.
+# Convert added/changed .fodt tutorials to PDF with LibreOffice.
+# - pull_request: build + upload PDF artifacts (no commit)
+# - push: build, upload artifacts, and commit PDFs back to the branch
+# - workflow_dispatch: manual rebuild
 on:
+  pull_request:
+    paths:
+      - "**.fodt"
+      - "build_tools/**"
+      - ".github/workflows/fodt-to-pdf.yml"
   push:
     paths:
       - "**.fodt"
@@ -13,25 +20,23 @@ on:
         type: boolean
         default: true
 
-permissions:
-  contents: write
-
 concurrency:
-  group: fodt-to-pdf-${{ github.ref }}
+  group: fodt-to-pdf-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
 jobs:
   convert:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+    permissions:
+      # PRs only need read (artifacts still upload). Push needs write to commit PDFs.
+      contents: ${{ github.event_name == 'pull_request' && 'read' || 'write' }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # Need parent commit to diff changed files on push.
-          fetch-depth: 2
-          # Check out the branch that triggered the workflow so we can push back.
-          ref: ${{ github.ref }}
+          # Full history so we can diff against the PR base or previous push.
+          fetch-depth: 0
 
       - name: Install LibreOffice
         run: |
@@ -47,7 +52,12 @@ jobs:
         run: |
           set -euo pipefail
 
-          if [[ "${{ github.event_name }}" == "push" ]]; then
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            BASE_SHA="${{ github.event.pull_request.base.sha }}"
+            HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+            # Triple-dot: changes on the PR branch since it diverged from base.
+            mapfile -t FILES < <(git diff --name-only --diff-filter=AM "${BASE_SHA}...${HEAD_SHA}" -- '*.fodt' || true)
+          elif [[ "${{ github.event_name }}" == "push" ]]; then
             BEFORE="${{ github.event.before }}"
             if [[ -z "$BEFORE" || "$BEFORE" =~ ^0+$ ]]; then
               mapfile -t FILES < <(git ls-files '*.fodt')
@@ -55,15 +65,12 @@ jobs:
               mapfile -t FILES < <(git diff --name-only --diff-filter=AM "$BEFORE" "${{ github.sha }}" -- '*.fodt' || true)
             fi
           elif [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.all_fodt }}" != "true" ]]; then
-            # Manual run without "all": convert files changed in the latest commit.
             mapfile -t FILES < <(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- '*.fodt' || true)
           else
-            # workflow_dispatch with all_fodt=true (or fallback): convert everything.
+            # workflow_dispatch with all_fodt=true
             mapfile -t FILES < <(git ls-files '*.fodt')
           fi
 
-          # Drop empty entries
-          FILES=("${FILES[@]}")
           COUNT=0
           : > /tmp/fodt_list.txt
           for f in "${FILES[@]+"${FILES[@]}"}"; do
@@ -82,6 +89,12 @@ jobs:
 
           echo "FODT files to convert ($COUNT):"
           cat /tmp/fodt_list.txt || true
+
+      - name: Skip notice
+        if: steps.fodt.outputs.count == '0'
+        run: |
+          echo "No matching .fodt files to convert for this event."
+          echo "On pull requests this is OK when only build tooling/workflow files changed."
 
       - name: Convert FODT to PDF
         if: steps.fodt.outputs.count != '0'
@@ -106,7 +119,6 @@ jobs:
           while IFS= read -r fodt; do
             pdf="${fodt%.fodt}.pdf"
             if [[ -f "$pdf" ]]; then
-              # Preserve relative path under the artifact root.
               mkdir -p "/tmp/pdf-artifacts/$(dirname "$pdf")"
               cp "$pdf" "/tmp/pdf-artifacts/$pdf"
             fi
@@ -117,13 +129,16 @@ jobs:
         if: steps.fodt.outputs.count != '0'
         uses: actions/upload-artifact@v4
         with:
-          name: tutorial-pdfs
+          name: tutorial-pdfs-${{ github.event.pull_request.number || github.run_id }}
           path: /tmp/pdf-artifacts
           if-no-files-found: warn
           retention-days: 14
 
       - name: Commit and push PDFs
-        if: steps.fodt.outputs.count != '0' && github.event_name != 'pull_request'
+        if: >-
+          steps.fodt.outputs.count != '0'
+          && github.event_name == 'push'
+          && github.ref_type == 'branch'
         shell: bash
         run: |
           set -euo pipefail
@@ -143,4 +158,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Auto-convert tutorial FODT to PDF"
-          git push
+          # Checkout is detached at the pushed SHA; push back to the branch name.
+          git push origin "HEAD:${{ github.ref_name }}"
