@@ -1,0 +1,146 @@
+name: Convert FODT to PDF
+
+# Convert newly added/changed .fodt tutorials to PDF with LibreOffice,
+# then commit the generated PDFs back to the same branch.
+on:
+  push:
+    paths:
+      - "**.fodt"
+  workflow_dispatch:
+    inputs:
+      all_fodt:
+        description: "Convert every tracked .fodt file (not only files from the latest commit)"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fodt-to-pdf-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Need parent commit to diff changed files on push.
+          fetch-depth: 2
+          # Check out the branch that triggered the workflow so we can push back.
+          ref: ${{ github.ref }}
+
+      - name: Install LibreOffice
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            libreoffice-writer \
+            default-jre-headless
+          soffice --version
+
+      - name: Collect FODT files to convert
+        id: fodt
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ "${{ github.event_name }}" == "push" ]]; then
+            BEFORE="${{ github.event.before }}"
+            if [[ -z "$BEFORE" || "$BEFORE" =~ ^0+$ ]]; then
+              mapfile -t FILES < <(git ls-files '*.fodt')
+            else
+              mapfile -t FILES < <(git diff --name-only --diff-filter=AM "$BEFORE" "${{ github.sha }}" -- '*.fodt' || true)
+            fi
+          elif [[ "${{ github.event_name }}" == "workflow_dispatch" && "${{ inputs.all_fodt }}" != "true" ]]; then
+            # Manual run without "all": convert files changed in the latest commit.
+            mapfile -t FILES < <(git diff --name-only --diff-filter=AM HEAD~1 HEAD -- '*.fodt' || true)
+          else
+            # workflow_dispatch with all_fodt=true (or fallback): convert everything.
+            mapfile -t FILES < <(git ls-files '*.fodt')
+          fi
+
+          # Drop empty entries
+          FILES=("${FILES[@]}")
+          COUNT=0
+          : > /tmp/fodt_list.txt
+          for f in "${FILES[@]+"${FILES[@]}"}"; do
+            [[ -z "${f:-}" ]] && continue
+            [[ -f "$f" ]] || continue
+            echo "$f" >> /tmp/fodt_list.txt
+            COUNT=$((COUNT + 1))
+          done
+
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          {
+            echo "files<<EOF"
+            cat /tmp/fodt_list.txt
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+          echo "FODT files to convert ($COUNT):"
+          cat /tmp/fodt_list.txt || true
+
+      - name: Convert FODT to PDF
+        if: steps.fodt.outputs.count != '0'
+        shell: bash
+        run: |
+          set -euo pipefail
+          chmod +x build_tools/convert_fodt_to_pdf.sh build_tools/build_pdfs.sh
+          mapfile -t FILES < /tmp/fodt_list.txt
+          ./build_tools/build_pdfs.sh "${FILES[@]}"
+          echo "Generated PDFs:"
+          while IFS= read -r fodt; do
+            pdf="${fodt%.fodt}.pdf"
+            ls -lh "$pdf"
+          done < /tmp/fodt_list.txt
+
+      - name: Stage PDF artifacts
+        if: steps.fodt.outputs.count != '0'
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/pdf-artifacts
+          while IFS= read -r fodt; do
+            pdf="${fodt%.fodt}.pdf"
+            if [[ -f "$pdf" ]]; then
+              # Preserve relative path under the artifact root.
+              mkdir -p "/tmp/pdf-artifacts/$(dirname "$pdf")"
+              cp "$pdf" "/tmp/pdf-artifacts/$pdf"
+            fi
+          done < /tmp/fodt_list.txt
+          find /tmp/pdf-artifacts -type f -name '*.pdf' -ls
+
+      - name: Upload PDF artifacts
+        if: steps.fodt.outputs.count != '0'
+        uses: actions/upload-artifact@v4
+        with:
+          name: tutorial-pdfs
+          path: /tmp/pdf-artifacts
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Commit and push PDFs
+        if: steps.fodt.outputs.count != '0' && github.event_name != 'pull_request'
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          while IFS= read -r fodt; do
+            pdf="${fodt%.fodt}.pdf"
+            if [[ -f "$pdf" ]]; then
+              git add -- "$pdf"
+            fi
+          done < /tmp/fodt_list.txt
+
+          if git diff --cached --quiet; then
+            echo "No PDF changes to commit"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Auto-convert tutorial FODT to PDF"
+          git push
