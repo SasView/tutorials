@@ -7,10 +7,12 @@ written next to its source (e.g. `foo.fodt` → `foo.pdf`).
 
 - On **push** to a branch: PDFs are generated beside the `.fodt` files and
   committed back to that branch (and uploaded as workflow artifacts).
+  Note: an open PR no longer cancels this push job.
 - On **pull requests**: PDFs are generated and uploaded as artifacts for
-  review. For same-repo PR branches, the accompanying push event also commits
+  review. For same-repo PR branches, the accompanying **push** event commits
   the PDFs into the branch.
-- **workflow_dispatch** can rebuild all (or recently changed) tutorials manually.
+- **workflow_dispatch** can rebuild all (or recently changed) tutorials and
+  commit the PDFs back to the selected branch.
 
 To convert locally (requires LibreOffice):
 

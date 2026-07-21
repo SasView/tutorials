@@ -1,11 +1,7 @@
 name: Convert FODT to PDF
 
-# Convert added/changed .fodt tutorials to PDF with LibreOffice and place each
-# PDF beside its source (same directory / basename).
-#
-# - push: convert, commit PDF next to each .fodt, upload artifacts
-# - pull_request: convert + upload artifacts (CI check for reviewers)
-# - workflow_dispatch: manual rebuild + commit
+# Convert changed .fodt tutorials to PDF beside the source, then commit them
+# back to the branch on push / workflow_dispatch.
 on:
   pull_request:
     paths:
@@ -22,9 +18,10 @@ on:
         type: boolean
         default: true
 
+# Keep PR and push runs independent so a PR check cannot cancel the push
+# job that commits PDFs into the branch.
 concurrency:
-  # One in-flight run per branch (covers same-repo PR + push races).
-  group: fodt-to-pdf-${{ github.head_ref || github.ref_name }}
+  group: fodt-to-pdf-${{ github.event_name }}-${{ github.head_ref || github.ref_name }}
   cancel-in-progress: true
 
 permissions:
@@ -35,41 +32,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
-      - name: Decide target branch
-        id: meta
-        shell: bash
-        run: |
-          set -euo pipefail
-          EVENT="${{ github.event_name }}"
-          # Commit PDFs into the repo on push/manual runs.
-          # Same-repo PRs still get PDFs via the accompanying push event.
-          # Fork PRs only receive artifacts (no write access to the fork).
-          CAN_PUSH=false
-          BRANCH="${{ github.ref_name }}"
-
-          if [[ "$EVENT" == "push" && "${{ github.ref_type }}" == "branch" ]]; then
-            CAN_PUSH=true
-            BRANCH="${{ github.ref_name }}"
-          elif [[ "$EVENT" == "workflow_dispatch" ]]; then
-            CAN_PUSH=true
-            BRANCH="${{ github.ref_name }}"
-          elif [[ "$EVENT" == "pull_request" ]]; then
-            BRANCH="${{ github.head_ref }}"
-          fi
-
-          echo "event=$EVENT"
-          echo "branch=$BRANCH"
-          echo "can_push=$CAN_PUSH"
-          echo "branch=$BRANCH" >> "$GITHUB_OUTPUT"
-          echo "can_push=$CAN_PUSH" >> "$GITHUB_OUTPUT"
-
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # Check out the branch that should receive the PDFs whenever we can push.
-          ref: ${{ steps.meta.outputs.can_push == 'true' && steps.meta.outputs.branch || github.sha }}
+          # Always check out a named branch for push/dispatch so git push works.
+          # For pull_request, check out the PR head commit.
+          ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.ref_name }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
 
       - name: Install LibreOffice
         run: |
@@ -112,19 +83,12 @@ jobs:
           done
 
           echo "count=$COUNT" >> "$GITHUB_OUTPUT"
-          {
-            echo "files<<EOF"
-            cat /tmp/fodt_list.txt
-            echo "EOF"
-          } >> "$GITHUB_OUTPUT"
-
           echo "FODT files to convert ($COUNT):"
           cat /tmp/fodt_list.txt || true
 
       - name: Skip notice
         if: steps.fodt.outputs.count == '0'
-        run: |
-          echo "No matching .fodt files to convert for this event."
+        run: echo "No matching .fodt files to convert for this event."
 
       - name: Convert FODT to PDF beside sources
         if: steps.fodt.outputs.count != '0'
@@ -133,7 +97,6 @@ jobs:
           set -euo pipefail
           chmod +x build_tools/convert_fodt_to_pdf.sh build_tools/build_pdfs.sh
           mapfile -t FILES < /tmp/fodt_list.txt
-          # Writes each PDF next to its .fodt (same directory, same basename).
           ./build_tools/build_pdfs.sh "${FILES[@]}"
 
           echo "Generated PDFs (alongside sources):"
@@ -157,7 +120,6 @@ jobs:
             mkdir -p "/tmp/pdf-artifacts/$(dirname "$pdf")"
             cp "$pdf" "/tmp/pdf-artifacts/$pdf"
           done < /tmp/fodt_list.txt
-          find /tmp/pdf-artifacts -type f -name '*.pdf' -ls
 
       - name: Upload PDF artifacts
         if: steps.fodt.outputs.count != '0'
@@ -169,29 +131,31 @@ jobs:
           retention-days: 14
 
       - name: Commit PDFs into the repository
-        if: steps.fodt.outputs.count != '0' && steps.meta.outputs.can_push == 'true'
+        # Only push/dispatch write back to the branch. PR jobs upload artifacts only
+        # (same-repo PR branches still get commits from the parallel push event).
+        if: >-
+          steps.fodt.outputs.count != '0' &&
+          (github.event_name == 'push' || github.event_name == 'workflow_dispatch')
         shell: bash
         run: |
           set -euo pipefail
 
-          BRANCH="${{ steps.meta.outputs.branch }}"
-
-          # Avoid a convert↔push loop if this commit was created by the bot.
-          if git log -1 --pretty=%an | grep -qx 'github-actions\[bot\]'; then
-            if git log -1 --pretty=%s | grep -qx 'Auto-convert tutorial FODT to PDF'; then
-              echo "HEAD is already an auto-PDF commit; skipping another commit"
-              exit 0
-            fi
-          fi
+          BRANCH="${{ github.ref_name }}"
+          echo "Committing PDFs onto branch: ${BRANCH}"
+          echo "git status before add:"
+          git status --short
 
           while IFS= read -r fodt; do
             pdf="${fodt%.fodt}.pdf"
             git add -- "$pdf"
-            echo "staged $pdf (same directory as $fodt)"
+            echo "staged $pdf (beside $fodt)"
           done < /tmp/fodt_list.txt
 
+          echo "git status after add:"
+          git status --short
+
           if git diff --cached --quiet; then
-            echo "No PDF content changes to commit"
+            echo "No PDF content changes to commit (already up to date)."
             exit 0
           fi
 
@@ -199,6 +163,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Auto-convert tutorial FODT to PDF"
 
-          # Push to the branch that owns the .fodt sources.
+          # Rebase onto remote tip in case another job pushed meanwhile, then push.
+          git pull --rebase --autostash origin "${BRANCH}"
           git push origin "HEAD:${BRANCH}"
-          echo "Committed PDFs next to their .fodt sources on branch ${BRANCH}"
+          echo "Pushed PDFs next to their .fodt sources on ${BRANCH}"
