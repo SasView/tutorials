@@ -1,5 +1,5 @@
 # tutorials
-This repository is where contributed tutorials for SasView live!
+This is repository for contributed SasView tutorials
 
 `.fodt` files committed here are automatically converted to PDF by GitHub
 Actions (`.github/workflows/fodt-to-pdf.yml`) using LibreOffice. Each PDF is
