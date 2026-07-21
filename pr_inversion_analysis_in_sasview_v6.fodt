@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" office:version="1.4" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2017-04-04T10:28:25.684000000</meta:creation-date><meta:generator>LibreOffice/26.2.4.2$MacOSX_AARCH64 LibreOffice_project/0229ac93fcf0d7cbc6376066c6f35021cef002dc</meta:generator><dc:date>2026-07-21T08:52:33.677854000</dc:date><meta:editing-duration>P3DT18H23M33S</meta:editing-duration><meta:editing-cycles>177</meta:editing-cycles><meta:document-statistic meta:table-count="5" meta:image-count="13" meta:object-count="0" meta:page-count="11" meta:paragraph-count="76" meta:word-count="1832" meta:character-count="11413" meta:non-whitespace-character-count="9608"/></office:meta>
+ <office:meta><meta:creation-date>2017-04-04T10:28:25.684000000</meta:creation-date><meta:generator>LibreOffice/26.2.4.2$MacOSX_AARCH64 LibreOffice_project/0229ac93fcf0d7cbc6376066c6f35021cef002dc</meta:generator><dc:date>2026-07-21T15:37:36.759287000</dc:date><meta:editing-duration>P3DT18H27M4S</meta:editing-duration><meta:editing-cycles>178</meta:editing-cycles><meta:document-statistic meta:table-count="5" meta:image-count="13" meta:object-count="0" meta:page-count="11" meta:paragraph-count="74" meta:word-count="1821" meta:character-count="11350" meta:non-whitespace-character-count="9555"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">155</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">36154</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaWidth" config:type="long">26001</config:config-item>
    <config:config-item config:name="ViewAreaHeight" config:type="long">13160</config:config-item>
@@ -13,19 +13,19 @@
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">4500</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">40492</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">18210</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">38545</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">155</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">36154</config:config-item>
      <config:config-item config:name="VisibleRight" config:type="long">26000</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">13314</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">49313</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
      <config:config-item config:name="ZoomFactor" config:type="short">88</config:config-item>
      <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
      <config:config-item config:name="KeepRatio" config:type="boolean">false</config:config-item>
-     <config:config-item config:name="WindowState" config:type="string">151,120,1209,700;1;,,,;</config:config-item>
+     <config:config-item config:name="WindowState" config:type="string">151,65,1209,700;1;,,,;</config:config-item>
      <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
      <config:config-item config:name="LegacySingleLineFontwork" config:type="boolean">false</config:config-item>
      <config:config-item config:name="ConnectorUseSnapRect" config:type="boolean">false</config:config-item>
@@ -92,7 +92,7 @@
    <config:config-item config:name="DropCapPunctuation" config:type="boolean">false</config:config-item>
    <config:config-item config:name="EmbedLatinScriptFonts" config:type="boolean">true</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">14950215</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">14957224</config:config-item>
    <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
    <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
    <config:config-item config:name="ApplyTextAttrToEmptyLineAtEndOfParagraph" config:type="boolean">false</config:config-item>
@@ -243,16 +243,16 @@
    <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="Graphics" style:family="graphic">
-   <style:graphic-properties text:anchor-type="paragraph" svg:x="0in" svg:y="0in" style:wrap="dynamic" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph" fo:background-color="transparent" draw:fill="none"/>
+   <style:graphic-properties text:anchor-type="paragraph" svg:x="0in" svg:y="0in" style:wrap="dynamic" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph" fo:background-color="transparent" draw:fill="none" draw:fill-color="#729fcf"/>
   </style:style>
   <style:style style:name="OLE" style:family="graphic">
-   <style:graphic-properties text:anchor-type="paragraph" svg:x="0in" svg:y="0in" style:wrap="dynamic" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph" fo:background-color="transparent" draw:fill="none"/>
+   <style:graphic-properties text:anchor-type="paragraph" svg:x="0in" svg:y="0in" style:wrap="dynamic" style:number-wrapped-paragraphs="no-limit" style:wrap-contour="false" style:vertical-pos="top" style:vertical-rel="paragraph" style:horizontal-pos="center" style:horizontal-rel="paragraph" fo:background-color="transparent" draw:fill="none" draw:fill-color="#729fcf"/>
   </style:style>
   <style:style style:name="Formula" style:family="graphic">
-   <style:graphic-properties text:anchor-type="as-char" svg:y="0in" fo:margin-left="0.0791in" fo:margin-right="0.0791in" style:vertical-pos="middle" style:vertical-rel="text" fo:background-color="transparent" draw:fill="none"/>
+   <style:graphic-properties text:anchor-type="as-char" svg:y="0in" fo:margin-left="0.0791in" fo:margin-right="0.0791in" style:vertical-pos="middle" style:vertical-rel="text" fo:background-color="transparent" draw:fill="none" draw:fill-color="#729fcf"/>
   </style:style>
   <style:style style:name="Frame" style:family="graphic">
-   <style:graphic-properties text:anchor-type="as-char" svg:y="0in" style:wrap="none" style:vertical-pos="middle" style:vertical-rel="line" fo:background-color="transparent" draw:fill="none"/>
+   <style:graphic-properties text:anchor-type="as-char" svg:y="0in" style:wrap="none" style:vertical-pos="middle" style:vertical-rel="line" fo:background-color="transparent" draw:fill="none" draw:fill-color="#729fcf"/>
   </style:style>
   <text:outline-style style:name="Outline">
    <text:outline-level-style text:level="1" loext:num-list-format="%1%" style:num-format="">
@@ -787,234 +787,231 @@
    <style:text-properties officeooo:rsid="00124ef2"/>
   </style:style>
   <style:style style:name="T5" style:family="text">
-   <style:text-properties style:font-name="Arial" officeooo:rsid="00124ef2"/>
+   <style:text-properties officeooo:rsid="00e43aa8"/>
   </style:style>
   <style:style style:name="T6" style:family="text">
-   <style:text-properties officeooo:rsid="00df352f"/>
-  </style:style>
-  <style:style style:name="T7" style:family="text">
-   <style:text-properties officeooo:rsid="00e41f47"/>
-  </style:style>
-  <style:style style:name="T8" style:family="text">
    <style:text-properties officeooo:rsid="00376794"/>
   </style:style>
-  <style:style style:name="T9" style:family="text">
+  <style:style style:name="T7" style:family="text">
    <style:text-properties officeooo:rsid="00c31521"/>
   </style:style>
-  <style:style style:name="T10" style:family="text">
+  <style:style style:name="T8" style:family="text">
    <style:text-properties officeooo:rsid="00809a92"/>
   </style:style>
-  <style:style style:name="T11" style:family="text">
+  <style:style style:name="T9" style:family="text">
    <style:text-properties officeooo:rsid="004a6ca1"/>
   </style:style>
-  <style:style style:name="T12" style:family="text">
+  <style:style style:name="T10" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" fo:font-family="sans-serif" fo:letter-spacing="normal" fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="T13" style:family="text">
+  <style:style style:name="T11" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" fo:font-family="sans-serif" fo:letter-spacing="normal" fo:font-style="normal" officeooo:rsid="00c3057f" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="T14" style:family="text">
+  <style:style style:name="T12" style:family="text">
    <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#000000" loext:opacity="100%" fo:font-family="sans-serif" fo:letter-spacing="normal" fo:font-style="normal" officeooo:rsid="00c3057f" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="T15" style:family="text">
+  <style:style style:name="T13" style:family="text">
    <style:text-properties fo:color="#000000" loext:opacity="100%" fo:font-family="sans-serif" fo:letter-spacing="normal"/>
   </style:style>
-  <style:style style:name="T16" style:family="text">
+  <style:style style:name="T14" style:family="text">
    <style:text-properties fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="T17" style:family="text">
+  <style:style style:name="T15" style:family="text">
+   <style:text-properties officeooo:rsid="00df352f"/>
+  </style:style>
+  <style:style style:name="T16" style:family="text">
    <style:text-properties officeooo:rsid="00385ff5"/>
   </style:style>
-  <style:style style:name="T18" style:family="text">
+  <style:style style:name="T17" style:family="text">
    <style:text-properties officeooo:rsid="00d598ac"/>
   </style:style>
-  <style:style style:name="T19" style:family="text">
+  <style:style style:name="T18" style:family="text">
    <style:text-properties officeooo:rsid="0083d032"/>
   </style:style>
-  <style:style style:name="T20" style:family="text">
+  <style:style style:name="T19" style:family="text">
    <style:text-properties officeooo:rsid="0085eaf5"/>
   </style:style>
-  <style:style style:name="T21" style:family="text">
+  <style:style style:name="T20" style:family="text">
    <style:text-properties officeooo:rsid="00842133"/>
   </style:style>
-  <style:style style:name="T22" style:family="text">
+  <style:style style:name="T21" style:family="text">
    <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
-  <style:style style:name="T23" style:family="text">
+  <style:style style:name="T22" style:family="text">
    <style:text-properties officeooo:rsid="00466c3f"/>
   </style:style>
-  <style:style style:name="T24" style:family="text">
+  <style:style style:name="T23" style:family="text">
    <style:text-properties officeooo:rsid="004d1faf"/>
   </style:style>
-  <style:style style:name="T25" style:family="text">
+  <style:style style:name="T24" style:family="text">
    <style:text-properties officeooo:rsid="00871937"/>
   </style:style>
-  <style:style style:name="T26" style:family="text">
+  <style:style style:name="T25" style:family="text">
    <style:text-properties fo:font-style="normal" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="T27" style:family="text">
+  <style:style style:name="T26" style:family="text">
    <style:text-properties fo:font-style="normal" fo:font-weight="bold" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="T28" style:family="text">
+  <style:style style:name="T27" style:family="text">
    <style:text-properties fo:font-style="normal" officeooo:rsid="00227635" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="T29" style:family="text">
+  <style:style style:name="T28" style:family="text">
    <style:text-properties officeooo:rsid="0092d41b"/>
   </style:style>
-  <style:style style:name="T30" style:family="text">
+  <style:style style:name="T29" style:family="text">
    <style:text-properties officeooo:rsid="0088da24"/>
   </style:style>
-  <style:style style:name="T31" style:family="text">
+  <style:style style:name="T30" style:family="text">
    <style:text-properties fo:background-color="#cccccc" loext:char-shading-value="0"/>
   </style:style>
-  <style:style style:name="T32" style:family="text">
+  <style:style style:name="T31" style:family="text">
    <style:text-properties fo:font-weight="bold" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="T33" style:family="text">
+  <style:style style:name="T32" style:family="text">
    <style:text-properties fo:font-weight="bold" officeooo:rsid="0048f391" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="T34" style:family="text">
+  <style:style style:name="T33" style:family="text">
    <style:text-properties style:text-underline-style="none" fo:font-weight="bold" officeooo:rsid="00c9cbe1" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="T35" style:family="text">
+  <style:style style:name="T34" style:family="text">
    <style:text-properties officeooo:rsid="0050f818"/>
   </style:style>
-  <style:style style:name="T36" style:family="text">
+  <style:style style:name="T35" style:family="text">
    <style:text-properties officeooo:rsid="0050f818" fo:background-color="#cccccc" loext:char-shading-value="0"/>
   </style:style>
-  <style:style style:name="T37" style:family="text">
+  <style:style style:name="T36" style:family="text">
    <style:text-properties fo:background-color="#ffffff" loext:char-shading-value="0"/>
   </style:style>
-  <style:style style:name="T38" style:family="text">
+  <style:style style:name="T37" style:family="text">
    <style:text-properties officeooo:rsid="00d5ebb1" fo:background-color="#ffffff" loext:char-shading-value="0"/>
   </style:style>
-  <style:style style:name="T39" style:family="text">
+  <style:style style:name="T38" style:family="text">
    <style:text-properties officeooo:rsid="00c9cbe1" fo:background-color="#ffffff" loext:char-shading-value="0"/>
   </style:style>
-  <style:style style:name="T40" style:family="text">
+  <style:style style:name="T39" style:family="text">
    <style:text-properties officeooo:rsid="00cab4ff" fo:background-color="#ffffff" loext:char-shading-value="0"/>
   </style:style>
-  <style:style style:name="T41" style:family="text">
+  <style:style style:name="T40" style:family="text">
    <style:text-properties officeooo:rsid="00cab4ff"/>
   </style:style>
-  <style:style style:name="T42" style:family="text">
+  <style:style style:name="T41" style:family="text">
    <style:text-properties officeooo:rsid="00d5ebb1"/>
   </style:style>
-  <style:style style:name="T43" style:family="text">
+  <style:style style:name="T42" style:family="text">
    <style:text-properties style:text-position="0% 100%" style:font-name="Arial" fo:font-style="normal" officeooo:rsid="00cf997a" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="T44" style:family="text">
+  <style:style style:name="T43" style:family="text">
    <style:text-properties style:text-position="super 58%"/>
   </style:style>
-  <style:style style:name="T45" style:family="text">
+  <style:style style:name="T44" style:family="text">
    <style:text-properties officeooo:rsid="00c7a49a"/>
   </style:style>
-  <style:style style:name="T46" style:family="text">
+  <style:style style:name="T45" style:family="text">
    <style:text-properties style:text-position="0% 100%" fo:font-style="normal" officeooo:rsid="0089f0c1" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="T47" style:family="text">
+  <style:style style:name="T46" style:family="text">
    <style:text-properties style:text-position="0% 100%" fo:font-style="normal" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="T48" style:family="text">
+  <style:style style:name="T47" style:family="text">
    <style:text-properties style:text-position="0% 100%" fo:font-style="normal" officeooo:rsid="00da59d5" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="T49" style:family="text">
+  <style:style style:name="T48" style:family="text">
    <style:text-properties style:text-position="0% 100%" fo:font-style="normal" officeooo:rsid="00cc3de1" fo:background-color="#ffffff" loext:char-shading-value="0" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
-  <style:style style:name="T50" style:family="text">
+  <style:style style:name="T49" style:family="text">
    <style:text-properties fo:font-weight="bold" officeooo:rsid="008a226e" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
-  <style:style style:name="T51" style:family="text">
+  <style:style style:name="T50" style:family="text">
    <style:text-properties officeooo:rsid="008a226e"/>
   </style:style>
-  <style:style style:name="T52" style:family="text">
+  <style:style style:name="T51" style:family="text">
    <style:text-properties officeooo:rsid="00903889"/>
   </style:style>
-  <style:style style:name="T53" style:family="text">
+  <style:style style:name="T52" style:family="text">
    <style:text-properties style:font-name="Arial" officeooo:rsid="00da9f68" style:font-name-asian="SimSun" style:font-name-complex="Mangal1"/>
   </style:style>
-  <style:style style:name="T54" style:family="text">
+  <style:style style:name="T53" style:family="text">
    <style:text-properties style:font-name="Arial" style:font-name-asian="SimSun" style:font-name-complex="Mangal1"/>
   </style:style>
-  <style:style style:name="T55" style:family="text">
+  <style:style style:name="T54" style:family="text">
    <style:text-properties style:text-position="sub 58%" style:font-name="Arial" style:font-name-asian="SimSun" style:font-name-complex="Mangal1"/>
   </style:style>
-  <style:style style:name="T56" style:family="text">
+  <style:style style:name="T55" style:family="text">
    <style:text-properties style:font-name="Arial" officeooo:rsid="00cd5fc2" style:font-name-asian="SimSun" style:font-name-complex="Mangal1"/>
   </style:style>
-  <style:style style:name="T57" style:family="text">
+  <style:style style:name="T56" style:family="text">
    <style:text-properties style:text-position="sub 58%" style:font-name="Arial" officeooo:rsid="00cd5fc2" style:font-name-asian="SimSun" style:font-name-complex="Mangal1"/>
   </style:style>
-  <style:style style:name="T58" style:family="text">
+  <style:style style:name="T57" style:family="text">
    <style:text-properties style:font-name="Arial" officeooo:rsid="00cf997a" style:font-name-asian="SimSun" style:font-name-complex="Mangal1"/>
   </style:style>
-  <style:style style:name="T59" style:family="text">
+  <style:style style:name="T58" style:family="text">
    <style:text-properties style:text-position="super 58%" style:font-name="Arial" officeooo:rsid="00cd5fc2" style:font-name-asian="SimSun" style:font-name-complex="Mangal1"/>
   </style:style>
-  <style:style style:name="T60" style:family="text">
+  <style:style style:name="T59" style:family="text">
    <style:text-properties style:text-position="super 58%" style:font-name="Arial" style:font-name-asian="SimSun" style:font-name-complex="Mangal1"/>
   </style:style>
-  <style:style style:name="T61" style:family="text">
+  <style:style style:name="T60" style:family="text">
    <style:text-properties style:font-name="Arial" officeooo:rsid="00cefa9f" style:font-name-asian="SimSun" style:font-name-complex="Mangal1"/>
   </style:style>
-  <style:style style:name="T62" style:family="text">
+  <style:style style:name="T61" style:family="text">
    <style:text-properties style:font-name="Arial" officeooo:rsid="00c7c35f" style:font-name-asian="SimSun" style:font-name-complex="Mangal1"/>
   </style:style>
-  <style:style style:name="T63" style:family="text">
+  <style:style style:name="T62" style:family="text">
    <style:text-properties style:text-position="sub 58%" style:font-name="Arial" officeooo:rsid="00c7c35f" style:font-name-asian="SimSun" style:font-name-complex="Mangal1"/>
   </style:style>
-  <style:style style:name="T64" style:family="text">
+  <style:style style:name="T63" style:family="text">
    <style:text-properties style:font-name="Arial" officeooo:rsid="00c80df3" style:font-name-asian="SimSun" style:font-name-complex="Mangal1"/>
   </style:style>
-  <style:style style:name="T65" style:family="text">
+  <style:style style:name="T64" style:family="text">
    <style:text-properties style:font-name="Arial" officeooo:rsid="00cf997a"/>
   </style:style>
-  <style:style style:name="T66" style:family="text">
+  <style:style style:name="T65" style:family="text">
    <style:text-properties officeooo:rsid="00e0891b"/>
   </style:style>
-  <style:style style:name="T67" style:family="text">
+  <style:style style:name="T66" style:family="text">
    <style:text-properties officeooo:rsid="00cefa9f"/>
   </style:style>
-  <style:style style:name="T68" style:family="text">
+  <style:style style:name="T67" style:family="text">
    <style:text-properties officeooo:rsid="00e1b90d"/>
   </style:style>
-  <style:style style:name="T69" style:family="text">
+  <style:style style:name="T68" style:family="text">
    <style:text-properties fo:background-color="transparent" loext:char-shading-value="0"/>
   </style:style>
-  <style:style style:name="T70" style:family="text">
+  <style:style style:name="T69" style:family="text">
    <style:text-properties officeooo:rsid="00d5ebb1" fo:background-color="transparent" loext:char-shading-value="0"/>
   </style:style>
-  <style:style style:name="T71" style:family="text">
+  <style:style style:name="T70" style:family="text">
    <style:text-properties officeooo:rsid="00c9a125"/>
   </style:style>
-  <style:style style:name="T72" style:family="text">
+  <style:style style:name="T71" style:family="text">
    <style:text-properties officeooo:rsid="00cf95e8"/>
   </style:style>
-  <style:style style:name="T73" style:family="text">
+  <style:style style:name="T72" style:family="text">
    <style:text-properties officeooo:rsid="00cf997a"/>
   </style:style>
-  <style:style style:name="T74" style:family="text">
+  <style:style style:name="T73" style:family="text">
    <style:text-properties officeooo:rsid="00e2bfbe"/>
   </style:style>
-  <style:style style:name="T75" style:family="text">
+  <style:style style:name="T74" style:family="text">
    <style:text-properties officeooo:rsid="00e32da6"/>
   </style:style>
-  <style:style style:name="T76" style:family="text">
+  <style:style style:name="T75" style:family="text">
    <style:text-properties style:font-name="Arial"/>
   </style:style>
-  <style:style style:name="T77" style:family="text">
+  <style:style style:name="T76" style:family="text">
    <style:text-properties officeooo:rsid="00d0eba2"/>
   </style:style>
-  <style:style style:name="T78" style:family="text">
+  <style:style style:name="T77" style:family="text">
    <style:text-properties officeooo:rsid="00d0eba2" fo:background-color="#ffffff" loext:char-shading-value="0"/>
   </style:style>
-  <style:style style:name="T79" style:family="text">
+  <style:style style:name="T78" style:family="text">
    <style:text-properties style:font-name="Arial" officeooo:rsid="00d0eba2" fo:background-color="#ffffff" loext:char-shading-value="0"/>
   </style:style>
-  <style:style style:name="T80" style:family="text">
+  <style:style style:name="T79" style:family="text">
    <style:text-properties officeooo:rsid="00d25870" fo:background-color="#ffffff" loext:char-shading-value="0"/>
   </style:style>
-  <style:style style:name="T81" style:family="text">
+  <style:style style:name="T80" style:family="text">
    <style:text-properties officeooo:rsid="00d25870"/>
   </style:style>
   <style:style style:name="fr1" style:family="graphic" style:parent-style-name="Graphics">
@@ -1125,33 +1122,33 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
-   </text:sequence-decls><draw:frame draw:style-name="fr9" draw:name="Frame1" text:anchor-type="page" text:anchor-page-number="1" svg:x="0in" svg:y="0in" svg:width="0.0161in" draw:z-index="0">
+   </text:sequence-decls><draw:frame draw:style-name="fr9" draw:name="Frame7" text:anchor-type="page" text:anchor-page-number="1" svg:x="0in" svg:y="0in" svg:width="0.0161in" draw:z-index="6">
     <draw:text-box fo:min-height="0.0161in">
-     <text:p text:style-name="Text_20_body">Ri</text:p>
-    </draw:text-box>
-   </draw:frame><draw:frame draw:style-name="fr9" draw:name="Frame2" text:anchor-type="page" text:anchor-page-number="1" svg:x="0in" svg:y="0in" svg:width="0.0161in" draw:z-index="1">
-    <draw:text-box fo:min-height="0.0161in">
-     <text:p text:style-name="Text_20_body">Ri</text:p>
-    </draw:text-box>
-   </draw:frame><draw:frame draw:style-name="fr9" draw:name="Frame3" text:anchor-type="page" text:anchor-page-number="1" svg:x="0in" svg:y="0in" svg:width="0.0161in" draw:z-index="2">
-    <draw:text-box fo:min-height="0.0161in">
-     <text:p text:style-name="Text_20_body">−1</text:p>
-    </draw:text-box>
-   </draw:frame><draw:frame draw:style-name="fr9" draw:name="Frame4" text:anchor-type="page" text:anchor-page-number="1" svg:x="0in" svg:y="0in" svg:width="0.0161in" draw:z-index="3">
-    <draw:text-box fo:min-height="0.0161in">
-     <text:p text:style-name="Text_20_body">+1</text:p>
-    </draw:text-box>
-   </draw:frame><draw:frame draw:style-name="fr9" draw:name="Frame5" text:anchor-type="page" text:anchor-page-number="1" svg:x="0in" svg:y="0in" svg:width="0.0161in" draw:z-index="4">
-    <draw:text-box fo:min-height="0.0161in">
-     <text:p text:style-name="Text_20_body">−3</text:p>
+     <text:p text:style-name="Text_20_body">±3</text:p>
     </draw:text-box>
    </draw:frame><draw:frame draw:style-name="fr9" draw:name="Frame6" text:anchor-type="page" text:anchor-page-number="1" svg:x="0in" svg:y="0in" svg:width="0.0161in" draw:z-index="5">
     <draw:text-box fo:min-height="0.0161in">
      <text:p text:style-name="Text_20_body">+3</text:p>
     </draw:text-box>
-   </draw:frame><draw:frame draw:style-name="fr9" draw:name="Frame7" text:anchor-type="page" text:anchor-page-number="1" svg:x="0in" svg:y="0in" svg:width="0.0161in" draw:z-index="6">
+   </draw:frame><draw:frame draw:style-name="fr9" draw:name="Frame5" text:anchor-type="page" text:anchor-page-number="1" svg:x="0in" svg:y="0in" svg:width="0.0161in" draw:z-index="4">
     <draw:text-box fo:min-height="0.0161in">
-     <text:p text:style-name="Text_20_body">±3</text:p>
+     <text:p text:style-name="Text_20_body">−3</text:p>
+    </draw:text-box>
+   </draw:frame><draw:frame draw:style-name="fr9" draw:name="Frame4" text:anchor-type="page" text:anchor-page-number="1" svg:x="0in" svg:y="0in" svg:width="0.0161in" draw:z-index="3">
+    <draw:text-box fo:min-height="0.0161in">
+     <text:p text:style-name="Text_20_body">+1</text:p>
+    </draw:text-box>
+   </draw:frame><draw:frame draw:style-name="fr9" draw:name="Frame3" text:anchor-type="page" text:anchor-page-number="1" svg:x="0in" svg:y="0in" svg:width="0.0161in" draw:z-index="2">
+    <draw:text-box fo:min-height="0.0161in">
+     <text:p text:style-name="Text_20_body">−1</text:p>
+    </draw:text-box>
+   </draw:frame><draw:frame draw:style-name="fr9" draw:name="Frame2" text:anchor-type="page" text:anchor-page-number="1" svg:x="0in" svg:y="0in" svg:width="0.0161in" draw:z-index="1">
+    <draw:text-box fo:min-height="0.0161in">
+     <text:p text:style-name="Text_20_body">Ri</text:p>
+    </draw:text-box>
+   </draw:frame><draw:frame draw:style-name="fr9" draw:name="Frame1" text:anchor-type="page" text:anchor-page-number="1" svg:x="0in" svg:y="0in" svg:width="0.0161in" draw:z-index="0">
+    <draw:text-box fo:min-height="0.0161in">
+     <text:p text:style-name="Text_20_body">Ri</text:p>
     </draw:text-box>
    </draw:frame>
    <text:p text:style-name="P2"><draw:frame draw:style-name="fr1" draw:name="Image1" text:anchor-type="char" svg:width="6.6929in" svg:height="4.7244in" draw:z-index="10"><draw:image draw:mime-type="image/png">
@@ -4242,12 +4239,9 @@
    <text:p text:style-name="P10"/>
    <text:p text:style-name="P11">SasView was originally developed by the University of Tennessee as part of the Distributed Data Analysis of Neutron Scattering Experiments (DANSE) project funded by the US <text:soft-page-break/>National Science Foundation (NSF), but is currently being developed as an Open Source project hosted on GitHub and managed by a consortium of scattering facilities. Participating facilities include <text:span text:style-name="T4">(in alphabetical order)</text:span>: <text:span text:style-name="T4">the Australian National Science &amp; Technology Centre for Neutron Scattering,</text:span> the <text:span text:style-name="T4">Diamond Light Source, the </text:span>European Spallation Source, <text:span text:style-name="T4">t</text:span>he Institut Laue Langevin, <text:span text:style-name="T4">the </text:span>ISIS <text:span text:style-name="T4">Pulsed Neutron &amp; Muon Source</text:span>, <text:span text:style-name="T4">t</text:span>he National Institute of Standards <text:span text:style-name="T4">&amp;</text:span> Technology Center for Neutron Research, the Oak Ridge National Laboratory Neutron Sciences Directorate, <text:span text:style-name="T4">and the Technical University Delft Reactor Institute</text:span>.</text:p>
    <text:p text:style-name="P11"/>
-   <text:p text:style-name="P10">SasView is distributed under a &apos;Three-clause&apos; BSD licence which you may read here:</text:p>
-   <text:p text:style-name="P10"><text:a xlink:type="simple" xlink:href="https://github.com/SasView/sasview/blob/master/LICENSE.TXT" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">https://github.com/SasView/sasview/blob/master/LICENSE.TXT</text:a> </text:p>
+   <text:p text:style-name="P10">SasView <text:span text:style-name="T5">and this tutorial are</text:span> distributed under a &apos;Three-clause&apos; BSD licence which you may read here: <text:a xlink:type="simple" xlink:href="https://github.com/SasView/sasview/blob/master/LICENSE.TXT" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link">https://github.com/SasView/sasview/blob/master/LICENSE.TXT</text:a> </text:p>
    <text:p text:style-name="P10"/>
    <text:p text:style-name="P10">SasView is free to download and use, including for commercial purposes.</text:p>
-   <text:p text:style-name="P11"/>
-   <text:p text:style-name="P11"><text:span text:style-name="T5">©</text:span> 2009-20<text:span text:style-name="T1">2</text:span><text:span text:style-name="T6">6</text:span> UMD, UTK, NIST, ORNL, ISIS, ESS, <text:span text:style-name="T4">ANSTO,</text:span> ILL, <text:span text:style-name="T4">TUD, DLS, BAM, </text:span><text:span text:style-name="T7">SciLifeLab</text:span> </text:p>
    <text:p text:style-name="P11"/>
    <text:p text:style-name="P11"/>
    <text:p text:style-name="P12">If you make use of SasView</text:p>
@@ -4266,13 +4260,13 @@
    <text:p text:style-name="P19"/>
    <text:p text:style-name="P20">Learning Objective</text:p>
    <text:p text:style-name="P21"/>
-   <text:p text:style-name="P22">This tutorial will <text:span text:style-name="T8">demonstrate how to perform P(r) inversion on 1D (‘intensity’ versus Q) datasets in SasView. The P(r) function is the real space distance distribution function. <text:s/>It is most commonly used in the analysis of small-angle scattering data from monodisperse protein solutions but can be applied to data from more generic systems. <text:s/>This form of analysis should, in general, be used on systems in which the Guinier region shows no evidence of contributions from aggregation or the structure factor S(q). <text:s/>This tutorial does not aim to cover all scenarios that solution scatterers, particularly biologists, may encounter in analysing their data – a full workflow for biological solution scatters should include accurate determination of the radius of gyration, estimation of molecular weight and inspection of basic SAS plots such as the Kratky plot!</text:span></text:p>
+   <text:p text:style-name="P22">This tutorial will <text:span text:style-name="T6">demonstrate how to perform P(r) inversion on 1D (‘intensity’ versus Q) datasets in SasView. The P(r) function is the real space distance distribution function. <text:s/>It is most commonly used in the analysis of small-angle scattering data from monodisperse protein solutions but can be applied to data from more generic systems. <text:s/>This form of analysis should, in general, be used on systems in which the Guinier region shows no evidence of contributions from aggregation or the structure factor S(q). <text:s/>This tutorial does not aim to cover all scenarios that solution scatterers, particularly biologists, may encounter in analysing their data – a full workflow for biological solution scatters should include accurate determination of the radius of gyration, estimation of molecular weight and inspection of basic SAS plots such as the Kratky plot!</text:span></text:p>
    <text:p text:style-name="P23"/>
-   <text:p text:style-name="P24">It is assumed that the reader has some familiarity with <text:span text:style-name="T9">pair distance distribution functions </text:span>and <text:span text:style-name="T1">the</text:span> principles of <text:span text:style-name="T1">P(r) inversion analysis</text:span>. If not, <text:span text:style-name="T1">this</text:span> <text:span text:style-name="T10">reference</text:span> <text:span text:style-name="T11">provides an overview</text:span>:</text:p>
+   <text:p text:style-name="P24">It is assumed that the reader has some familiarity with <text:span text:style-name="T7">pair distance distribution functions </text:span>and <text:span text:style-name="T1">the</text:span> principles of <text:span text:style-name="T1">P(r) inversion analysis</text:span>. If not, <text:span text:style-name="T1">this</text:span> <text:span text:style-name="T8">reference</text:span> <text:span text:style-name="T9">provides an overview</text:span>:</text:p>
    <text:p text:style-name="P25"/>
    <text:list text:style-name="L1">
     <text:list-item>
-     <text:p text:style-name="P26"><text:span text:style-name="T12">Moore, </text:span><text:span text:style-name="T13">PB</text:span><text:span text:style-name="T14">. </text:span><text:span text:style-name="Emphasis"><text:span text:style-name="T15">J. Appl. Cryst.</text:span></text:span><text:span text:style-name="T12">, (1980), </text:span><text:span text:style-name="T13">13,</text:span><text:span text:style-name="T12"> 168-175</text:span><text:span text:style-name="T16"> </text:span></text:p>
+     <text:p text:style-name="P26"><text:span text:style-name="T10">Moore, </text:span><text:span text:style-name="T11">PB</text:span><text:span text:style-name="T12">. </text:span><text:span text:style-name="Emphasis"><text:span text:style-name="T13">J. Appl. Cryst.</text:span></text:span><text:span text:style-name="T10">, (1980), </text:span><text:span text:style-name="T11">13,</text:span><text:span text:style-name="T10"> 168-175</text:span><text:span text:style-name="T14"> </text:span></text:p>
     </text:list-item>
    </text:list>
    <text:p text:style-name="P27"/>
@@ -4282,7 +4276,7 @@
     <table:table-column table:style-name="Table13.A"/>
     <table:table-row>
      <table:table-cell table:style-name="Table13.A1" office:value-type="string">
-      <text:p text:style-name="P29">The program interface shown in this tutorial is SasView Version <text:span text:style-name="T2">6.</text:span><text:span text:style-name="T6">2</text:span> running on a <text:span text:style-name="T6">MacOS</text:span> platform <text:span text:style-name="T17">but, apart from a few small differences in look and functionality, this tutorial is generally applicable to SasView 6.x running on any platform. </text:span></text:p>
+      <text:p text:style-name="P29">The program interface shown in this tutorial is SasView Version <text:span text:style-name="T2">6.</text:span><text:span text:style-name="T15">2</text:span> running on a <text:span text:style-name="T15">MacOS</text:span> platform <text:span text:style-name="T16">but, apart from a few small differences in look and functionality, this tutorial is generally applicable to SasView 6.x running on any platform. </text:span></text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
@@ -4296,10 +4290,10 @@
     <table:table-column table:style-name="Table1.B"/>
     <table:table-row>
      <table:table-cell table:style-name="Table1.A1" office:value-type="string">
-      <text:p text:style-name="P33"><text:span text:style-name="T18">Distance distribution </text:span>function</text:p>
+      <text:p text:style-name="P33"><text:span text:style-name="T17">Distance distribution </text:span>function</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B1" office:value-type="string">
-      <text:p text:style-name="P34">A real-space function that describes spatial relations in the system whose datasets are being analysed. <text:span text:style-name="T19">The form of the function can be used to infer the overall shape/internal structure of the scattering objects.</text:span></text:p>
+      <text:p text:style-name="P34">A real-space function that describes spatial relations in the system whose datasets are being analysed. <text:span text:style-name="T18">The form of the function can be used to infer the overall shape/internal structure of the scattering objects.</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -4315,7 +4309,7 @@
       <text:p text:style-name="P37">Fourier Transform</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B2" office:value-type="string">
-      <text:p text:style-name="P38">A mathematical ‘tool’ that decomposes a measured signal into <text:span text:style-name="T20">a sum of sine or cosine functions.</text:span> </text:p>
+      <text:p text:style-name="P38">A mathematical ‘tool’ that decomposes a measured signal into <text:span text:style-name="T19">a sum of sine or cosine functions.</text:span> </text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -4347,7 +4341,7 @@
       <text:p text:style-name="P42">Real-space</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B2" office:value-type="string">
-      <text:p text:style-name="P43"><text:span text:style-name="T21">R</text:span>eal world <text:span text:style-name="T21">coordinates</text:span>. <text:span text:style-name="T21">The opposite of inverse-space or reciprocal space.</text:span></text:p>
+      <text:p text:style-name="P43"><text:span text:style-name="T20">R</text:span>eal world <text:span text:style-name="T20">coordinates</text:span>. <text:span text:style-name="T20">The opposite of inverse-space or reciprocal space.</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -4355,7 +4349,7 @@
       <text:p text:style-name="P37">Reciprocal-space</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B2" office:value-type="string">
-      <text:p text:style-name="P38">The Fourier Transform of real world coordinates. The opposite of real-space. In scattering measurements, <text:span text:style-name="T22">Q</text:span><text:span text:style-name="T16"> is the reciprocal-space equivalent of a real world length scale.</text:span></text:p>
+      <text:p text:style-name="P38">The Fourier Transform of real world coordinates. The opposite of real-space. In scattering measurements, <text:span text:style-name="T21">Q</text:span><text:span text:style-name="T14"> is the reciprocal-space equivalent of a real world length scale.</text:span></text:p>
      </table:table-cell>
     </table:table-row>
     <table:table-row>
@@ -4388,7 +4382,7 @@
       <text:p text:style-name="P46">Uncertainties</text:p>
      </table:table-cell>
      <table:table-cell table:style-name="Table1.B2" office:value-type="string">
-      <text:p text:style-name="P47">Every experimental measurement, including the measurement of <text:span text:style-name="T22">I(Q)</text:span><text:span text:style-name="T16">,</text:span> is subject to some degree of error <text:span text:style-name="T23">(which will</text:span>, ideally, be included in the dataset<text:span text:style-name="T23">)</text:span>. <text:span text:style-name="T24">Similarly,</text:span> the parameters returned by <text:span text:style-name="T25">any analysis</text:span> <text:span text:style-name="T24">will </text:span>have some associated range of uncertainty.</text:p>
+      <text:p text:style-name="P47">Every experimental measurement, including the measurement of <text:span text:style-name="T21">I(Q)</text:span><text:span text:style-name="T14">,</text:span> is subject to some degree of error <text:span text:style-name="T22">(which will</text:span>, ideally, be included in the dataset<text:span text:style-name="T22">)</text:span>. <text:span text:style-name="T23">Similarly,</text:span> the parameters returned by <text:span text:style-name="T24">any analysis</text:span> <text:span text:style-name="T23">will </text:span>have some associated range of uncertainty.</text:p>
       <text:p text:style-name="P47"/>
       <text:p text:style-name="P48">Parameters with uncertainties that are more than 95% of the parameter value should be viewed with deep suspicion.</text:p>
      </table:table-cell>
@@ -4400,7 +4394,7 @@
    <text:p text:style-name="P52">Running SasView</text:p>
    <text:p text:style-name="P53"/>
    <text:p text:style-name="P54">Windows</text:p>
-   <text:p text:style-name="P55"><text:span text:style-name="T26">Either select SasView from ‘</text:span><text:span text:style-name="T27">Start</text:span><text:span text:style-name="T26">’<text:tab/>&gt; ‘</text:span><text:span text:style-name="T27">All Programs</text:span><text:span text:style-name="T26">’ or, if you asked the installer to create on</text:span><text:span text:style-name="T28">e</text:span><text:span text:style-name="T26">, double-click on the SasView desktop icon.</text:span></text:p>
+   <text:p text:style-name="P55"><text:span text:style-name="T25">Either select SasView from ‘</text:span><text:span text:style-name="T26">Start</text:span><text:span text:style-name="T25">’<text:tab/>&gt; ‘</text:span><text:span text:style-name="T26">All Programs</text:span><text:span text:style-name="T25">’ or, if you asked the installer to create on</text:span><text:span text:style-name="T27">e</text:span><text:span text:style-name="T25">, double-click on the SasView desktop icon.</text:span></text:p>
    <text:p text:style-name="P56"/>
    <text:p text:style-name="P56"><draw:frame draw:style-name="fr2" draw:name="Image3" text:anchor-type="char" svg:width="1.1457in" svg:height="1.2835in" draw:z-index="11"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAG4AAACACAIAAABld8teAAAgAElEQVR4nO19a4xd13Xet9Y+
@@ -4584,7 +4578,7 @@
      </draw:image>
     </draw:frame></text:p>
    <text:p text:style-name="P54">Mac OS</text:p>
-   <text:p text:style-name="P57"><text:span text:style-name="T26">Go in to your ‘</text:span><text:span text:style-name="T27">Applications</text:span><text:span text:style-name="T26">’ folder and select SasView.</text:span></text:p>
+   <text:p text:style-name="P57"><text:span text:style-name="T25">Go in to your ‘</text:span><text:span text:style-name="T26">Applications</text:span><text:span text:style-name="T25">’ folder and select SasView.</text:span></text:p>
    <text:p text:style-name="P58"/>
    <text:p text:style-name="P58"/>
    <text:p text:style-name="P59"><draw:frame draw:style-name="fr3" draw:name="Image4" text:anchor-type="paragraph" svg:width="6.6929in" svg:height="4.0535in" draw:z-index="8"><draw:image draw:mime-type="image/png">
@@ -5606,20 +5600,20 @@
    <text:p text:style-name="P60"/>
    <text:p text:style-name="P60"/>
    <text:p text:style-name="P60"/>
-   <text:p text:style-name="P60"><text:soft-page-break/>Example <text:span text:style-name="T29">1</text:span></text:p>
+   <text:p text:style-name="P60"><text:soft-page-break/>Example <text:span text:style-name="T28">1</text:span></text:p>
    <text:p text:style-name="P61"/>
    <table:table table:name="Table10" table:style-name="Table10">
     <table:table-column table:style-name="Table10.A"/>
     <table:table-row>
      <table:table-cell table:style-name="Table10.A1" office:value-type="string">
-      <text:p text:style-name="P62">This <text:span text:style-name="T30">computes the distance distribution function for the glycoprotein conalbumin.</text:span></text:p>
+      <text:p text:style-name="P62">This <text:span text:style-name="T29">computes the distance distribution function for the glycoprotein conalbumin.</text:span></text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
    <text:p text:style-name="P63"/>
-   <text:p text:style-name="P64">In the Data Explorer panel, click the <text:span text:style-name="T31">Load Data</text:span> button, and navigate to the <text:span text:style-name="T32">\example_data</text:span><text:span text:style-name="T33">\1d_data </text:span>folder in the SasView installation directory.</text:p>
+   <text:p text:style-name="P64">In the Data Explorer panel, click the <text:span text:style-name="T30">Load Data</text:span> button, and navigate to the <text:span text:style-name="T31">\example_data</text:span><text:span text:style-name="T32">\1d_data </text:span>folder in the SasView installation directory.</text:p>
    <text:p text:style-name="P64"/>
-   <text:p text:style-name="P65">Select the <text:span text:style-name="T34">conalbumin.txt</text:span> dataset <text:span text:style-name="T35">and click the </text:span><text:span text:style-name="T36">Open</text:span><text:span text:style-name="T35"> button.</text:span></text:p>
+   <text:p text:style-name="P65">Select the <text:span text:style-name="T33">conalbumin.txt</text:span> dataset <text:span text:style-name="T34">and click the </text:span><text:span text:style-name="T35">Open</text:span><text:span text:style-name="T34"> button.</text:span></text:p>
    <text:p text:style-name="P66"><draw:frame draw:style-name="fr1" draw:name="Image2" text:anchor-type="char" svg:width="6.4874in" svg:height="3.8638in" draw:z-index="12"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAACqAAAAZUCAYAAACEs1GcAAAMTWlDQ1BJQ0MgUHJvZmlsZQAA
        SImVVwdYU8kWnltSIQQIREBK6E0QkRJASggtgPQuKiEJEEqMCUHFjiy7gmsXEazoKoiCqysg
@@ -22300,7 +22294,7 @@
       </office:binary-data>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P67"><text:span text:style-name="T37">This dataset is </text:span><text:span text:style-name="T38">SANS data collected on the</text:span><text:span text:style-name="T37"> SANS</text:span><text:span text:style-name="T39">2d instrument (ISIS Neutron and Muon Source, Harwell)</text:span><text:span text:style-name="T37"> from </text:span><text:span text:style-name="T40">conalbumin (or ovotransferrin) -</text:span><text:span text:style-name="T41"> a suggested PDB entry would be </text:span><text:a xlink:type="simple" xlink:href="https://www.rcsb.org/structure/1N04" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T41">1N04</text:span></text:a><text:span text:style-name="T41">. <text:s/>This structure forms a dimer in solution.</text:span></text:p>
+   <text:p text:style-name="P67"><text:span text:style-name="T36">This dataset is </text:span><text:span text:style-name="T37">SANS data collected on the</text:span><text:span text:style-name="T36"> SANS</text:span><text:span text:style-name="T38">2d instrument (ISIS Neutron and Muon Source, Harwell)</text:span><text:span text:style-name="T36"> from </text:span><text:span text:style-name="T39">conalbumin (or ovotransferrin) -</text:span><text:span text:style-name="T40"> a suggested PDB entry would be </text:span><text:a xlink:type="simple" xlink:href="https://www.rcsb.org/structure/1N04" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T40">1N04</text:span></text:a><text:span text:style-name="T40">. <text:s/>This structure forms a dimer in solution.</text:span></text:p>
    <text:p text:style-name="P67"><draw:frame draw:style-name="fr4" draw:name="Image7" text:anchor-type="paragraph" svg:x="1.439in" svg:y="0.1516in" svg:width="4.0165in" svg:height="2.6335in" draw:z-index="7"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAB4AAAASwCAIAAACVUsChAAEAAElEQVR4nOzdCXgTZf4H8De9
        ofQuV8uRtukBFKVc2oICIkgLSrlFXQ7RlvWA4i7uouAFyn9lleKuqxQR8UIBC8hRAWtBgapQ
@@ -28624,10 +28618,10 @@
    <text:p text:style-name="P68"/>
    <text:p text:style-name="P68"/>
    <text:p text:style-name="P68"/>
-   <text:p text:style-name="P69"><text:span text:style-name="T42">Structure</text:span> of <text:span text:style-name="T41">conalbumin </text:span>derived from protein crystallography (PDB entry <text:span text:style-name="T41">1N04</text:span>)</text:p>
-   <text:p text:style-name="P70"><text:soft-page-break/>The small angle scattering patterns from dilute protein molecules in solution typically exhibit a number of distinctive regions, with a Guinier region at low q from which the radius of gyration is obtained - this region, typically &lt;0.02<text:span text:style-name="T43">Å</text:span><text:span text:style-name="T44">-1</text:span> should be carefully checked for any signs of aggregation or structure factor, which have a deleterious effect on the P(r) function. <text:s/>The mid q region would indicate the overall shape, and any high portions above ~0.15<text:span text:style-name="T43">Å</text:span><text:span text:style-name="T44">-1</text:span> <text:span text:style-name="T45">may show some conformational detail, depending on the quality of the data.</text:span></text:p>
+   <text:p text:style-name="P69"><text:span text:style-name="T41">Structure</text:span> of <text:span text:style-name="T40">conalbumin </text:span>derived from protein crystallography (PDB entry <text:span text:style-name="T40">1N04</text:span>)</text:p>
+   <text:p text:style-name="P70"><text:soft-page-break/>The small angle scattering patterns from dilute protein molecules in solution typically exhibit a number of distinctive regions, with a Guinier region at low q from which the radius of gyration is obtained - this region, typically &lt;0.02<text:span text:style-name="T42">Å</text:span><text:span text:style-name="T43">-1</text:span> should be carefully checked for any signs of aggregation or structure factor, which have a deleterious effect on the P(r) function. <text:s/>The mid q region would indicate the overall shape, and any high portions above ~0.15<text:span text:style-name="T42">Å</text:span><text:span text:style-name="T43">-1</text:span> <text:span text:style-name="T44">may show some conformational detail, depending on the quality of the data.</text:span></text:p>
    <text:p text:style-name="P70"/>
-   <text:p text:style-name="P71">Once the data has been loaded, <text:span text:style-name="T2">at the bottom of the Data Explorer select ‘Inversion’ in the drop down menu, then </text:span>click on the ‘Send to’ button. <text:s/><text:span text:style-name="T2">T</text:span><text:span text:style-name="T46">he panel transforms into a </text:span><text:span text:style-name="T47">P(r) </text:span><text:span text:style-name="T48">Inversion</text:span><text:span text:style-name="T46"> analysis page. </text:span><text:span text:style-name="T48">At the bottom of this, click ‘Calculate’. <text:s/>T</text:span><text:span text:style-name="T46">he measured data is displayed, </text:span><text:span text:style-name="T47">along with a window showing the derived </text:span><text:span text:style-name="T49">function.</text:span></text:p>
+   <text:p text:style-name="P71">Once the data has been loaded, <text:span text:style-name="T2">at the bottom of the Data Explorer select ‘Inversion’ in the drop down menu, then </text:span>click on the ‘Send to’ button. <text:s/><text:span text:style-name="T2">T</text:span><text:span text:style-name="T45">he panel transforms into a </text:span><text:span text:style-name="T46">P(r) </text:span><text:span text:style-name="T47">Inversion</text:span><text:span text:style-name="T45"> analysis page. </text:span><text:span text:style-name="T47">At the bottom of this, click ‘Calculate’. <text:s/>T</text:span><text:span text:style-name="T45">he measured data is displayed, </text:span><text:span text:style-name="T46">along with a window showing the derived </text:span><text:span text:style-name="T48">function.</text:span></text:p>
    <text:p text:style-name="P72"/>
    <text:p text:style-name="P73"><draw:frame draw:style-name="fr5" draw:name="Image5" text:anchor-type="char" svg:width="6.6929in" svg:height="3.5992in" draw:z-index="13"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAC8QAAAZUCAYAAACdMSpWAAAMTWlDQ1BJQ0MgUHJvZmlsZQAA
@@ -37124,15 +37118,15 @@
     <table:table-column table:style-name="Table3.A"/>
     <table:table-row>
      <table:table-cell table:style-name="Table3.A1" office:value-type="string">
-      <text:p text:style-name="P74"><text:span text:style-name="T50">Tip:</text:span><text:span text:style-name="T51"> If you want to change </text:span>the <text:span text:style-name="T52">axis scales to alter the appearance of the plot, right-click on the graph and select Change Scale.</text:span></text:p>
+      <text:p text:style-name="P74"><text:span text:style-name="T49">Tip:</text:span><text:span text:style-name="T50"> If you want to change </text:span>the <text:span text:style-name="T51">axis scales to alter the appearance of the plot, right-click on the graph and select Change Scale.</text:span></text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
    <text:p text:style-name="P75"/>
-   <text:p text:style-name="P76"><text:span text:style-name="T53">Under the ‘Options’ tab t</text:span><text:span text:style-name="T54">here is a box to enter any slit smearing data, if appropriate for your instrument. Otherwise the height and width boxes may be left blank.</text:span></text:p>
+   <text:p text:style-name="P76"><text:span text:style-name="T52">Under the ‘Options’ tab t</text:span><text:span text:style-name="T53">here is a box to enter any slit smearing data, if appropriate for your instrument. Otherwise the height and width boxes may be left blank.</text:span></text:p>
    <text:p text:style-name="P77"/>
-   <text:p text:style-name="P78"><text:span text:style-name="T54">The q range used for the regularisation can be adjusted using the ‘Q range’ boxes. <text:s/>Generally, one would want to use as much of the Guinier region as possible, but do remove any ‘noisy’ points near the beamstop (i.e. at q</text:span><text:span text:style-name="T55">min</text:span><text:span text:style-name="T54">) which your reduction software has not masked off!! <text:s/></text:span><text:span text:style-name="T56">Here, let us restrict the q</text:span><text:span text:style-name="T57">min</text:span><text:span text:style-name="T56"> to 0.015</text:span><text:span text:style-name="T58">Å</text:span><text:span text:style-name="T59">-1</text:span><text:span text:style-name="T56">.</text:span><text:span text:style-name="T54"> <text:s/>At high q, for most protein systems it may be better to place q</text:span><text:span text:style-name="T55">max</text:span><text:span text:style-name="T54"> near 0.2</text:span><text:span text:style-name="T58">Å</text:span><text:span text:style-name="T60">-1</text:span><text:span text:style-name="T54"> in the first instance – </text:span><text:span text:style-name="T61">let’s do this here!</text:span><text:span text:style-name="T54"> <text:s/>Using higher values of q will require the background subtraction to be </text:span><text:span text:style-name="T56">highly</text:span><text:span text:style-name="T54"> accurate. <text:s/>You may be able to infer how well your buffer has been subtracted by inspection of the Kratky plot – a kick up at high q may suggest problems and should cause you to lower q</text:span><text:span text:style-name="T55">max</text:span><text:span text:style-name="T54">. <text:s/>In addition, SANS data in higher fractions of H</text:span><text:span text:style-name="T55">2</text:span><text:span text:style-name="T54">O may present problems in this regard. <text:s/></text:span><text:span text:style-name="T62">Adjust q</text:span><text:span text:style-name="T63">max</text:span><text:span text:style-name="T62"> down accordingly! <text:s/></text:span><text:span text:style-name="T64">For small errors in background subtraction, SasView can </text:span><text:span text:style-name="T64">account for this using the ‘Estimate’ radio button. Here we will leave this feature turned on – it is possible to make a manual entry should you wish.</text:span></text:p>
-   <text:p text:style-name="P78"><text:soft-page-break/><text:span text:style-name="T64"/></text:p>
+   <text:p text:style-name="P78"><text:span text:style-name="T53">The q range used for the regularisation can be adjusted using the ‘Q range’ boxes. <text:s/>Generally, one would want to use as much of the Guinier region as possible, but do remove any ‘noisy’ points near the beamstop (i.e. at q</text:span><text:span text:style-name="T54">min</text:span><text:span text:style-name="T53">) which your reduction software has not masked off!! <text:s/></text:span><text:span text:style-name="T55">Here, let us restrict the q</text:span><text:span text:style-name="T56">min</text:span><text:span text:style-name="T55"> to 0.015</text:span><text:span text:style-name="T57">Å</text:span><text:span text:style-name="T58">-1</text:span><text:span text:style-name="T55">.</text:span><text:span text:style-name="T53"> <text:s/>At high q, for most protein systems it may be better to place q</text:span><text:span text:style-name="T54">max</text:span><text:span text:style-name="T53"> near 0.2</text:span><text:span text:style-name="T57">Å</text:span><text:span text:style-name="T59">-1</text:span><text:span text:style-name="T53"> in the first instance – </text:span><text:span text:style-name="T60">let’s do this here!</text:span><text:span text:style-name="T53"> <text:s/>Using higher values of q will require the background subtraction to be </text:span><text:span text:style-name="T55">highly</text:span><text:span text:style-name="T53"> accurate. <text:s/>You may be able to infer how well your buffer has been subtracted by inspection of the Kratky plot – a kick up at high q may suggest problems and should cause you to lower q</text:span><text:span text:style-name="T54">max</text:span><text:span text:style-name="T53">. <text:s/>In addition, SANS data in higher fractions of H</text:span><text:span text:style-name="T54">2</text:span><text:span text:style-name="T53">O may present problems in this regard. <text:s/></text:span><text:span text:style-name="T61">Adjust q</text:span><text:span text:style-name="T62">max</text:span><text:span text:style-name="T61"> down accordingly! <text:s/></text:span><text:span text:style-name="T63">For small errors in background subtraction, SasView can </text:span><text:span text:style-name="T63">account for this using the ‘Estimate’ radio button. Here we will leave this feature turned on – it is possible to make a manual entry should you wish.</text:span></text:p>
+   <text:p text:style-name="P78"><text:soft-page-break/><text:span text:style-name="T63"/></text:p>
    <text:p text:style-name="P79"><draw:frame draw:style-name="fr6" draw:name="Image11" text:anchor-type="paragraph" svg:width="2.5535in" svg:height="2.9937in" draw:z-index="9"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAAgQAAAKqCAIAAADKdtFfAABmgUlEQVR4nO3dd1xT1+M//pMQ
        9iaAILJVHICAWrWKgOK2ThxU1OJqtdKqbVHrHogiWhX3fGudda9aFfcWBzgAB4KIIHtDIOP+
@@ -37624,7 +37618,7 @@
       </office:binary-data>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P79">We can see in the plot above that a regularisation has already been computed using the default value of 140<text:span text:style-name="T65">Å</text:span>. Notice how the fit line to the experimental data (in <text:span text:style-name="T66">orange</text:span>) looks quite good but the actual computed P(r) function oscillates out to high values of D. This is a simple indication that the solution is incorrect!!</text:p>
+   <text:p text:style-name="P79">We can see in the plot above that a regularisation has already been computed using the default value of 140<text:span text:style-name="T64">Å</text:span>. Notice how the fit line to the experimental data (in <text:span text:style-name="T65">orange</text:span>) looks quite good but the actual computed P(r) function oscillates out to high values of D. This is a simple indication that the solution is incorrect!!</text:p>
    <text:p text:style-name="P80"/>
    <text:p text:style-name="P80">You will note that the ‘Number of terms’ and ‘Regularisation’ boxes have suggested values filled in – these are continuously recomputed and you should use them by clicking on the suggested value unless you have a good reason not to!</text:p>
    <text:p text:style-name="P80"><draw:frame draw:style-name="fr5" draw:name="Image8" text:anchor-type="char" svg:width="6.6929in" svg:height="3.5398in" draw:z-index="14"><draw:image draw:mime-type="image/png">
@@ -46233,7 +46227,7 @@
      </draw:image>
     </draw:frame></text:p>
    <text:p text:style-name="P80"/>
-   <text:p text:style-name="P81">We should explore a range of possible <text:span text:style-name="T67">r</text:span> values <text:span text:style-name="T67">to get it right</text:span>….</text:p>
+   <text:p text:style-name="P81">We should explore a range of possible <text:span text:style-name="T66">r</text:span> values <text:span text:style-name="T66">to get it right</text:span>….</text:p>
    <text:p text:style-name="P81"/>
    <text:p text:style-name="P82">Clicking the ‘Explore’ button will bring up a separate window.</text:p>
    <text:p text:style-name="P83"/>
@@ -48528,7 +48522,7 @@
    <text:p text:style-name="P84"/>
    <text:p text:style-name="P84"/>
    <text:p text:style-name="P84"/>
-   <text:p text:style-name="P85">This window gives the chi-squared fit to the data versus degrees of freedom (other statistical models are available in the ‘dependent variable’ drop-down if desired). <text:s/>The correct value should be at a minimum – here we see this is around 1<text:span text:style-name="T68">2</text:span><text:span text:style-name="T67">5</text:span><text:span text:style-name="T65">Å</text:span> <text:span text:style-name="T67">(in fact it is probably lower than this)</text:span>. I<text:span text:style-name="T69">nput this value </text:span><text:span text:style-name="T70">into the P(r) Control Panel </text:span><text:span text:style-name="T69">and </text:span>set the new suggested <text:span text:style-name="T71">number of terms and regularisation, and then hit compute! <text:s/></text:span></text:p>
+   <text:p text:style-name="P85">This window gives the chi-squared fit to the data versus degrees of freedom (other statistical models are available in the ‘dependent variable’ drop-down if desired). <text:s/>The correct value should be at a minimum – here we see this is around 1<text:span text:style-name="T67">2</text:span><text:span text:style-name="T66">5</text:span><text:span text:style-name="T64">Å</text:span> <text:span text:style-name="T66">(in fact it is probably lower than this)</text:span>. I<text:span text:style-name="T68">nput this value </text:span><text:span text:style-name="T69">into the P(r) Control Panel </text:span><text:span text:style-name="T68">and </text:span>set the new suggested <text:span text:style-name="T70">number of terms and regularisation, and then hit compute! <text:s/></text:span></text:p>
    <text:p text:style-name="P83"/>
    <text:p text:style-name="P86"><draw:frame draw:style-name="fr5" draw:name="Image12" text:anchor-type="char" svg:width="6.6929in" svg:height="3.6236in" draw:z-index="16"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAC8oAAAZiCAYAAABR2/5VAAAMTWlDQ1BJQ0MgUHJvZmlsZQAA
@@ -57178,7 +57172,7 @@
       </office:binary-data>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P87">This looks better – notice how the fit line through the experimental data looks sensible. <text:s/>The P(r) function may need some extra work – notice how at large r values <text:span text:style-name="T72">it does not seem to stabilise. <text:s/>Let’s try using a larger range in the ‘Explore’ window - </text:span></text:p>
+   <text:p text:style-name="P87">This looks better – notice how the fit line through the experimental data looks sensible. <text:s/>The P(r) function may need some extra work – notice how at large r values <text:span text:style-name="T71">it does not seem to stabilise. <text:s/>Let’s try using a larger range in the ‘Explore’ window - </text:span></text:p>
    <text:p text:style-name="P87"/>
    <text:p text:style-name="P87"><text:soft-page-break/></text:p>
    <text:p text:style-name="P87"/>
@@ -59626,7 +59620,7 @@
       </office:binary-data>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P88"><text:span text:style-name="T73">Here we have decreased the minimum <text:tab/>distance to 90</text:span><text:span text:style-name="T65">Å</text:span><text:span text:style-name="T73">. You may wish to experiment with increasing the number of <text:tab/>points – here we have tried 20 rather than 1</text:span><text:span text:style-name="T74">5</text:span><text:span text:style-name="T73">. This may improve results for certain systems without too much of a computational penalty. Here the minimum is around 102</text:span><text:span text:style-name="T65">Å.</text:span></text:p>
+   <text:p text:style-name="P88"><text:span text:style-name="T72">Here we have decreased the minimum <text:tab/>distance to 90</text:span><text:span text:style-name="T64">Å</text:span><text:span text:style-name="T72">. You may wish to experiment with increasing the number of <text:tab/>points – here we have tried 20 rather than 1</text:span><text:span text:style-name="T73">5</text:span><text:span text:style-name="T72">. This may improve results for certain systems without too much of a computational penalty. Here the minimum is around 102</text:span><text:span text:style-name="T64">Å.</text:span></text:p>
    <text:p text:style-name="P87"/>
    <text:p text:style-name="P89"><draw:frame draw:style-name="fr5" draw:name="Image9" text:anchor-type="char" svg:width="6.6929in" svg:height="3.6102in" draw:z-index="18"><draw:image draw:mime-type="image/png">
       <office:binary-data>iVBORw0KGgoAAAANSUhEUgAAC8oAAAZcCAYAAABvq5iIAAAMTWlDQ1BJQ0MgUHJvZmlsZQAA
@@ -68257,16 +68251,16 @@
       </office:binary-data>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P90">Now, we should inspect the result. In most systems, one would have to make several iterative attempts to find the value at which chi<text:span text:style-name="T44">2</text:span>/dof reaches a minimum. Check the experimental data – see here, that the <text:span text:style-name="T75">orange</text:span> fit line is a good fit with the experimental <text:soft-page-break/>data – it is good here to check for any oscillations or discontinuities in the fit line which is a hint that the transformation has gone wrong. Now, we can check the derived P(r) function. <text:s/>The ‘Gaussian’ shape suggests we have a globular system, with the maximum distance within the system ~102<text:span text:style-name="T76">Å</text:span>. <text:s/>The function has an extensible part from 80-102<text:span text:style-name="T76">Å</text:span> which should be considered with some care. <text:s/></text:p>
-   <text:p text:style-name="P90"><text:span text:style-name="T77">It would also be considered good practice to compare the computed Rg, shown in the output box, with the experimentally derived Rg – if these diverge, this is a danger sign that you are on the wrong track, and would indicate that you have a polydisperse particle mixture, or aggregation/structure factor. <text:s/>In the example above, a quick derivation of the Rg using the SasView inbuilt </text:span><text:span text:style-name="T78">Guinier function (found under Fitting and Shape Independent models!) gives an Rg of 33</text:span><text:span text:style-name="T79">Å</text:span><text:span text:style-name="T78">, in agreement with the real space function. Careful inspection of the Guinier region is indicated here. Failing to find a stable solution may be a warning sign that you have an intrinsically disordered or fractal system – such shapes are not amenable to this form of analysis. <text:s/>If in doubt, there are a number of online tutorials and international training courses specifically for BioSAS that you may find useful!</text:span></text:p>
+   <text:p text:style-name="P90">Now, we should inspect the result. In most systems, one would have to make several iterative attempts to find the value at which chi<text:span text:style-name="T43">2</text:span>/dof reaches a minimum. Check the experimental data – see here, that the <text:span text:style-name="T74">orange</text:span> fit line is a good fit with the experimental <text:soft-page-break/>data – it is good here to check for any oscillations or discontinuities in the fit line which is a hint that the transformation has gone wrong. Now, we can check the derived P(r) function. <text:s/>The ‘Gaussian’ shape suggests we have a globular system, with the maximum distance within the system ~102<text:span text:style-name="T75">Å</text:span>. <text:s/>The function has an extensible part from 80-102<text:span text:style-name="T75">Å</text:span> which should be considered with some care. <text:s/></text:p>
+   <text:p text:style-name="P90"><text:span text:style-name="T76">It would also be considered good practice to compare the computed Rg, shown in the output box, with the experimentally derived Rg – if these diverge, this is a danger sign that you are on the wrong track, and would indicate that you have a polydisperse particle mixture, or aggregation/structure factor. <text:s/>In the example above, a quick derivation of the Rg using the SasView inbuilt </text:span><text:span text:style-name="T77">Guinier function (found under Fitting and Shape Independent models!) gives an Rg of 33</text:span><text:span text:style-name="T78">Å</text:span><text:span text:style-name="T77">, in agreement with the real space function. Careful inspection of the Guinier region is indicated here. Failing to find a stable solution may be a warning sign that you have an intrinsically disordered or fractal system – such shapes are not amenable to this form of analysis. <text:s/>If in doubt, there are a number of online tutorials and international training courses specifically for BioSAS that you may find useful!</text:span></text:p>
    <text:p text:style-name="P91"/>
-   <text:p text:style-name="P92">Example <text:span text:style-name="T42">2</text:span></text:p>
+   <text:p text:style-name="P92">Example <text:span text:style-name="T41">2</text:span></text:p>
    <text:p text:style-name="P93"/>
    <table:table table:name="Table2" table:style-name="Table2">
     <table:table-column table:style-name="Table2.A"/>
     <table:table-row>
      <table:table-cell table:style-name="Table2.A1" office:value-type="string">
-      <text:p text:style-name="P94">This <text:span text:style-name="T42">is an example of data which should suggest the need to exercise caution in the interpretation of the distance distribution function.</text:span></text:p>
+      <text:p text:style-name="P94">This <text:span text:style-name="T41">is an example of data which should suggest the need to exercise caution in the interpretation of the distance distribution function.</text:span></text:p>
      </table:table-cell>
     </table:table-row>
    </table:table>
@@ -77063,7 +77057,7 @@
       </office:binary-data>
      </draw:image>
     </draw:frame></text:p>
-   <text:p text:style-name="P91">The data here shows a SANS <text:span text:style-name="T38">measurement</text:span><text:span text:style-name="T37"> </text:span><text:span text:style-name="T38">on</text:span><text:span text:style-name="T37"> apoferritin. Notice that the P(r) function maximum is canted towards the right i.e. towards large values of r. This could indicate a hollow system (and this is true of apoferritin) but also not</text:span><text:span text:style-name="T38">e</text:span><text:span text:style-name="T37"> the extended section in the P(r) function at large values of r. This should raise our suspicion that there is something unusual going in this dataset!!! <text:s/></text:span><text:span text:style-name="T80">In this example, it’s likely that there i</text:span><text:span text:style-name="T81">s some structure factor, as the shape of the P(r) function is roughly what one might expect from apoferritin (i.e. a core-shell type structure), but the large extension doesn’t really make sense – take a look at a typical apoferritin PDB structure e.g. </text:span><text:a xlink:type="simple" xlink:href="https://www.rcsb.org/structure/2W0O" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T81">2W0O</text:span></text:a><text:span text:style-name="T81">!</text:span> </text:p>
+   <text:p text:style-name="P91">The data here shows a SANS <text:span text:style-name="T37">measurement</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T37">on</text:span><text:span text:style-name="T36"> apoferritin. Notice that the P(r) function maximum is canted towards the right i.e. towards large values of r. This could indicate a hollow system (and this is true of apoferritin) but also not</text:span><text:span text:style-name="T37">e</text:span><text:span text:style-name="T36"> the extended section in the P(r) function at large values of r. This should raise our suspicion that there is something unusual going in this dataset!!! <text:s/></text:span><text:span text:style-name="T79">In this example, it’s likely that there i</text:span><text:span text:style-name="T80">s some structure factor, as the shape of the P(r) function is roughly what one might expect from apoferritin (i.e. a core-shell type structure), but the large extension doesn’t really make sense – take a look at a typical apoferritin PDB structure e.g. </text:span><text:a xlink:type="simple" xlink:href="https://www.rcsb.org/structure/2W0O" text:style-name="Internet_20_link" text:visited-style-name="Visited_20_Internet_20_Link"><text:span text:style-name="T80">2W0O</text:span></text:a><text:span text:style-name="T80">!</text:span> </text:p>
   </office:text>
  </office:body>
 </office:document>
